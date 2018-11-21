@@ -271,6 +271,21 @@
                         </action>
                     </actions>
                 </event-block>
+                <event-block sid="303409236333417">
+                    <conditions>
+                        <condition id="-18" name="On created" sid="798205500666352" type="Attack5" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Spawn another object" sid="881824569070077" type="Attack5">
+                            <param id="0" name="Object">FuegoAliado2</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                        <action id="-18" name="Rotate clockwise" sid="821574770185273" type="FuegoAliado2">
+                            <param id="0" name="Degrees">-90</param>
+                        </action>
+                    </actions>
+                </event-block>
             </sub-events>
         </event-group>
         <event-group description="" sid="148593259207557" title="Combos">
@@ -458,6 +473,19 @@
                         </action>
                     </actions>
                 </event-block>
+                <event-block sid="420306499428003">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="624614456393266" type="Attack5">
+                            <param id="0" name="Object">Enemigos</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-12" name="Subtract from" sid="383464303944363" type="Enemigos">
+                            <param id="0" name="Instance variable">Vida</param>
+                            <param id="1" name="Value">Player.Daño</param>
+                        </action>
+                    </actions>
+                </event-block>
                 <event-block sid="832047874542855">
                     <conditions>
                         <condition id="-7" name="Compare instance variable" sid="219417288198051" type="Enemigos">
@@ -483,5 +511,221 @@
                 </event-block>
             </sub-events>
         </event-group>
+        <event-block sid="509810999929635">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="559161650977444" type="System" />
+            </conditions>
+            <actions>
+                <action id="-28" name="Set effect parameter" sid="820748440944126" type="Player">
+                    <param id="0" name="Effect">&quot;Tint&quot;</param>
+                    <param id="1" name="Parameter index">0</param>
+                    <param id="2" name="Value">Player.Vida</param>
+                </action>
+                <action id="-28" name="Set effect parameter" sid="569439662589591" type="Player">
+                    <param id="0" name="Effect">&quot;Tint&quot;</param>
+                    <param id="1" name="Parameter index">1</param>
+                    <param id="2" name="Value">Player.Vida</param>
+                </action>
+                <action id="-28" name="Set effect parameter" sid="226554504999248" type="Player">
+                    <param id="0" name="Effect">&quot;Tint&quot;</param>
+                    <param id="1" name="Parameter index">2</param>
+                    <param id="2" name="Value">Player.Vida</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="465755494651019">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="479512194979038" type="Fuego">
+                    <param id="0" name="Object">Player</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-12" name="Subtract from" sid="540566805976059" type="Player">
+                    <param id="0" name="Instance variable">Vida</param>
+                    <param id="1" name="Value">5</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block any="1" sid="246797712142255">
+            <conditions>
+                <condition behavior="Platform" id="10" name="Is by wall" sid="626533681769674" type="Player">
+                    <param id="0" name="Side">0</param>
+                </condition>
+                <condition behavior="Platform" id="10" name="Is by wall" sid="647736137589057" type="Player">
+                    <param id="0" name="Side">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="6" name="Set max fall speed" sid="303237376115507" type="Player">
+                    <param id="0" name="Max fall speed">100</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="393196688085126">
+            <conditions>
+                <condition id="-22" name="Else" sid="850330385297986" type="System" />
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="6" name="Set max fall speed" sid="676506172632204" type="Player">
+                    <param id="0" name="Max fall speed">1000</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="225770869607726">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="451113608128281" type="Keyboard">
+                    <param id="0" name="Key">74</param>
+                </condition>
+                <condition id="2" name="Key is down" sid="860481364621786" type="Keyboard">
+                    <param id="0" name="Key">87</param>
+                </condition>
+                <condition id="-7" name="Compare instance variable" sid="725395735339515" type="Player">
+                    <param id="0" name="Instance variable">Combo</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">5</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Spawn another object" sid="682798291257458" type="Player">
+                    <param id="0" name="Object">Attack5</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">4</param>
+                </action>
+                <action id="-10" name="Set value" sid="186716122594457" type="Player">
+                    <param id="0" name="Instance variable">Combo</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="-16" name="Wait" sid="265124187651512" type="System">
+                    <param id="0" name="Seconds">0.3</param>
+                </action>
+                <action id="-10" name="Set value" sid="591613169001292" type="Player">
+                    <param id="0" name="Instance variable">Combo</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="258772929096501">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="982467465642703" type="Keyboard">
+                    <param id="0" name="Key">87</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Set value" sid="966514021163930" type="Player">
+                    <param id="0" name="Instance variable">Combo</param>
+                    <param id="1" name="Value">5</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="322044280793876">
+            <conditions>
+                <condition id="-18" name="On created" sid="712761378856480" type="particle_" />
+            </conditions>
+            <actions>
+                <action behavior="CustomMovement" id="2" name="Set speed" sid="266023078392335" type="particle_">
+                    <param id="0" name="Which">2</param>
+                    <param id="1" name="Speed">random(-150,-200)</param>
+                </action>
+                <action behavior="Fade" id="4" name="Set fade-out time" sid="143502676284378" type="particle_">
+                    <param id="0" name="Fade-out time">random(0.7,1.3)</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="632363500895090">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="579944651263830" type="System">
+                    <param id="0" name="Interval (seconds)">random(0.1,0.5)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Spawn another object" sid="716275794251098" type="Player">
+                    <param id="0" name="Object">particle_</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">random(4,11)</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="665836943950757">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="504712747548399" type="Player">
+                    <param id="0" name="Instance variable">Direccion</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="7" name="Set mirrored" sid="221731164439981" type="Player">
+                    <param id="0" name="State">1</param>
+                </action>
+                <action id="7" name="Set mirrored" sid="428798383955649" type="BasicAttacks">
+                    <param id="0" name="State">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="847017266612852">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="577793244170171" type="Player">
+                    <param id="0" name="Instance variable">Direccion</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="7" name="Set mirrored" sid="420902474625912" type="Player">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action id="7" name="Set mirrored" sid="390541900547579" type="BasicAttacks">
+                    <param id="0" name="State">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="577513768245767">
+            <conditions>
+                <condition id="2" name="Key is down" sid="888470294317801" type="Keyboard">
+                    <param id="0" name="Key">68</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Set value" sid="375910276569509" type="Player">
+                    <param id="0" name="Instance variable">Direccion</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="390746612559147">
+            <conditions>
+                <condition id="2" name="Key is down" sid="761867847689460" type="Keyboard">
+                    <param id="0" name="Key">65</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Set value" sid="103171821065593" type="Player">
+                    <param id="0" name="Instance variable">Direccion</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="831229955155875">
+            <conditions>
+                <condition behavior="Platform" id="0" name="Is moving" sid="572534155467727" type="Player" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="704674423002353" type="Player">
+                    <param id="0" name="Animation">&quot;Correr&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="109659313415200">
+            <conditions>
+                <condition behavior="Platform" id="0" inverted="1" name="Is moving" sid="669098409202687" type="Player" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="884521985954435" type="Player">
+                    <param id="0" name="Animation">&quot;Default&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

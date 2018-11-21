@@ -13,7 +13,6 @@
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
-        <plugin author="Scirra" id="TextBox" version="1">Text box</plugin>
         <plugin author="Scirra" id="gamepad" version="1">Gamepad</plugin>
     </used-plugins>
     <used-behaviors>
@@ -23,10 +22,13 @@
         <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
         <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
         <behavior author="Scirra" id="Turret" version="1">Turret</behavior>
+        <behavior author="Scirra" id="custom" version="1">Custom Movement</behavior>
         <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
         <behavior author="Scirra" id="solid" version="1">Solid</behavior>
     </used-behaviors>
-    <used-effects />
+    <used-effects>
+        <effect author="Scirra" id="tint">Tint</effect>
+    </used-effects>
     <configurations>
         <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
     </configurations>
@@ -59,6 +61,7 @@
                 <instance-variable name="Combo" sid="698579473679821" type="number" />
                 <instance-variable name="Vida" sid="626361770803062" type="number" />
                 <instance-variable name="Daño" sid="303386877068893" type="number" />
+                <instance-variable name="Direccion" sid="343390673596673" type="number" />
             </instance-variables>
             <behaviors>
                 <behavior-type name="Platform" sid="319694107052990">
@@ -68,12 +71,140 @@
                     <behavior id="scrollto" />
                 </behavior-type>
             </behaviors>
+            <effects>
+                <effect-type name="Tint">
+                    <effect id="tint" />
+                </effect-type>
+            </effects>
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="424207309885834" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
-                        <image-point name="Imagepoint 1" x="1" y="0.5" />
-                        <image-point name="Imagepoint 2" x="1" y="0.832" />
-                        <image-point name="Imagepoint 3" x="1.004" y="0.104" />
+                <animation framecount="4" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="424207309885834" speed="8">
+                    <frame duration="1" hotspotX="0.502463" hotspotY="0.975779" original-source="D:\EdgardDeveloper\Construct\WanderingSoul\Assets\Player\Idle\Idle_01.png">
+                        <image-point name="Imagepoint 1" x="1" y="0.50173" />
+                        <image-point name="Imagepoint 2" x="1" y="0.83045" />
+                        <image-point name="Imagepoint 3" x="1.00493" y="0.103806" />
+                        <image-point name="Imagepoint 4" x="0.502463" y="0" />
+                        <image-point name="Imagepoint 5" x="0" y="0" />
+                        <image-point name="Imagepoint 6" x="1" y="0" />
+                        <image-point name="Imagepoint 7" x="0.842365" y="-0.00346021" />
+                        <image-point name="Imagepoint 8" x="0.674877" y="-0.00692042" />
+                        <image-point name="Imagepoint 9" x="0.167488" y="-0.00346021" />
+                        <image-point name="Imagepoint 10" x="0.339901" y="-0.00346021" />
+                        <collision-poly>
+                            <point x="0.137931" y="0.141869" />
+                            <point x="0.876848" y="0.141869" />
+                            <point x="0.876848" y="1" />
+                            <point x="0.137931" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.502463" hotspotY="0.975779" original-source="D:\EdgardDeveloper\Construct\WanderingSoul\Assets\Player\Idle\Idle_02.png">
+                        <image-point name="Imagepoint 1" x="1" y="0.50173" />
+                        <image-point name="Imagepoint 2" x="1" y="0.83045" />
+                        <image-point name="Imagepoint 3" x="1.00493" y="0.103806" />
+                        <image-point name="Imagepoint 4" x="0.502463" y="0" />
+                        <image-point name="Imagepoint 5" x="0" y="0" />
+                        <image-point name="Imagepoint 6" x="1" y="0" />
+                        <image-point name="Imagepoint 7" x="0.842365" y="-0.00346021" />
+                        <image-point name="Imagepoint 8" x="0.674877" y="-0.00692042" />
+                        <image-point name="Imagepoint 9" x="0.167488" y="-0.00346021" />
+                        <image-point name="Imagepoint 10" x="0.339901" y="-0.00346021" />
+                        <collision-poly>
+                            <point x="0.137931" y="0.141869" />
+                            <point x="0.876848" y="0.141869" />
+                            <point x="0.876848" y="1" />
+                            <point x="0.137931" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.502463" hotspotY="0.975779" original-source="D:\EdgardDeveloper\Construct\WanderingSoul\Assets\Player\Idle\Idle_03.png">
+                        <image-point name="Imagepoint 1" x="1" y="0.50173" />
+                        <image-point name="Imagepoint 2" x="1" y="0.83045" />
+                        <image-point name="Imagepoint 3" x="1.00493" y="0.103806" />
+                        <image-point name="Imagepoint 4" x="0.502463" y="0" />
+                        <image-point name="Imagepoint 5" x="0" y="0" />
+                        <image-point name="Imagepoint 6" x="1" y="0" />
+                        <image-point name="Imagepoint 7" x="0.842365" y="-0.00346021" />
+                        <image-point name="Imagepoint 8" x="0.674877" y="-0.00692042" />
+                        <image-point name="Imagepoint 9" x="0.167488" y="-0.00346021" />
+                        <image-point name="Imagepoint 10" x="0.339901" y="-0.00346021" />
+                        <collision-poly>
+                            <point x="0.137931" y="0.141869" />
+                            <point x="0.876848" y="0.141869" />
+                            <point x="0.876848" y="1" />
+                            <point x="0.137931" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.502463" hotspotY="0.975779" original-source="D:\EdgardDeveloper\Construct\WanderingSoul\Assets\Player\Idle\Idle_04.png">
+                        <image-point name="Imagepoint 1" x="1" y="0.50173" />
+                        <image-point name="Imagepoint 2" x="1" y="0.83045" />
+                        <image-point name="Imagepoint 3" x="1.00493" y="0.103806" />
+                        <image-point name="Imagepoint 4" x="0.502463" y="0" />
+                        <image-point name="Imagepoint 5" x="0" y="0" />
+                        <image-point name="Imagepoint 6" x="1" y="0" />
+                        <image-point name="Imagepoint 7" x="0.842365" y="-0.00346021" />
+                        <image-point name="Imagepoint 8" x="0.674877" y="-0.00692042" />
+                        <image-point name="Imagepoint 9" x="0.167488" y="-0.00346021" />
+                        <image-point name="Imagepoint 10" x="0.339901" y="-0.00346021" />
+                        <collision-poly>
+                            <point x="0.137931" y="0.141869" />
+                            <point x="0.876848" y="0.141869" />
+                            <point x="0.876848" y="1" />
+                            <point x="0.137931" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="3" loop="0" name="Correr" pingpong="0" repeatcount="1" repeatto="0" sid="934293893703238" speed="10">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.964744" original-source="D:\EdgardDeveloper\Construct\WanderingSoul\Assets\Player\run\Run_01.png">
+                        <image-point name="Imagepoint 1" x="1" y="0.503205" />
+                        <image-point name="Imagepoint 2" x="1" y="0.830128" />
+                        <image-point name="Imagepoint 3" x="1.00629" y="0.102564" />
+                        <image-point name="Imagepoint 4" x="0.503145" y="0" />
+                        <image-point name="Imagepoint 5" x="0" y="0" />
+                        <image-point name="Imagepoint 6" x="1" y="0" />
+                        <image-point name="Imagepoint 7" x="0.842767" y="-0.00320513" />
+                        <image-point name="Imagepoint 8" x="0.676101" y="-0.00641026" />
+                        <image-point name="Imagepoint 9" x="0.166667" y="-0.00320513" />
+                        <image-point name="Imagepoint 10" x="0.339623" y="-0.00320513" />
+                        <collision-poly>
+                            <point x="0.194968" y="0.227564" />
+                            <point x="0.80503" y="0.227564" />
+                            <point x="0.80503" y="0.977564" />
+                            <point x="0.194968" y="0.977564" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.964744" original-source="D:\EdgardDeveloper\Construct\WanderingSoul\Assets\Player\run\Run_02.png">
+                        <image-point name="Imagepoint 1" x="1" y="0.503205" />
+                        <image-point name="Imagepoint 2" x="1" y="0.830128" />
+                        <image-point name="Imagepoint 3" x="1.00629" y="0.102564" />
+                        <image-point name="Imagepoint 4" x="0.503145" y="0" />
+                        <image-point name="Imagepoint 5" x="0" y="0" />
+                        <image-point name="Imagepoint 6" x="1" y="0" />
+                        <image-point name="Imagepoint 7" x="0.842767" y="-0.00320513" />
+                        <image-point name="Imagepoint 8" x="0.676101" y="-0.00641026" />
+                        <image-point name="Imagepoint 9" x="0.166667" y="-0.00320513" />
+                        <image-point name="Imagepoint 10" x="0.339623" y="-0.00320513" />
+                        <collision-poly>
+                            <point x="0.194968" y="0.227564" />
+                            <point x="0.80503" y="0.227564" />
+                            <point x="0.80503" y="0.977564" />
+                            <point x="0.194968" y="0.977564" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.964744" original-source="D:\EdgardDeveloper\Construct\WanderingSoul\Assets\Player\run\Run_03.png">
+                        <image-point name="Imagepoint 1" x="1" y="0.503205" />
+                        <image-point name="Imagepoint 2" x="1" y="0.830128" />
+                        <image-point name="Imagepoint 3" x="1.00629" y="0.102564" />
+                        <image-point name="Imagepoint 4" x="0.503145" y="0" />
+                        <image-point name="Imagepoint 5" x="0" y="0" />
+                        <image-point name="Imagepoint 6" x="1" y="0" />
+                        <image-point name="Imagepoint 7" x="0.842767" y="-0.00320513" />
+                        <image-point name="Imagepoint 8" x="0.676101" y="-0.00641026" />
+                        <image-point name="Imagepoint 9" x="0.166667" y="-0.00320513" />
+                        <image-point name="Imagepoint 10" x="0.339623" y="-0.00320513" />
+                        <collision-poly>
+                            <point x="0.194968" y="0.227564" />
+                            <point x="0.80503" y="0.227564" />
+                            <point x="0.80503" y="0.977564" />
+                            <point x="0.194968" y="0.977564" />
+                        </collision-poly>
                     </frame>
                 </animation>
             </animation-folder>
@@ -202,9 +333,6 @@
         <object-type name="Text2" sid="150523460206168">
             <plugin id="Text" />
         </object-type>
-        <object-type name="TextBox" sid="112152508057874">
-            <plugin id="TextBox" />
-        </object-type>
         <object-type name="Text3" sid="320329652187293">
             <plugin id="Text" />
         </object-type>
@@ -227,6 +355,68 @@
         <object-type name="Text4" sid="881583163996669">
             <plugin id="Text" />
         </object-type>
+        <object-type name="Attack5" sid="540853873483915">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="143699317176014" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="FuegoAliado2" sid="703251925279623">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="524169988035470">
+                    <behavior id="Bullet" />
+                </behavior-type>
+                <behavior-type name="Fade" sid="830325450082829">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="380653076076325" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="particle_" sid="744512849388458">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="CustomMovement" sid="467117065154794">
+                    <behavior id="custom" />
+                </behavior-type>
+                <behavior-type name="Sine" sid="321742949757594">
+                    <behavior id="Sin" />
+                </behavior-type>
+                <behavior-type name="Fade" sid="953033839734072">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="820230719169170" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.504348" original-source="C:\Users\Vermillion\Desktop\particle_2.png">
+                        <collision-poly>
+                            <point x="0.37069" y="0.373913" />
+                            <point x="0.5" y="0.321739" />
+                            <point x="0.62069" y="0.382609" />
+                            <point x="0.672414" y="0.495652" />
+                            <point x="0.62069" y="0.617391" />
+                            <point x="0.5" y="0.669565" />
+                            <point x="0.37931" y="0.617391" />
+                            <point x="0.327586" y="0.495652" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite3" sid="868642976277219">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="104332119820583" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families>
         <family name="BasicAttacks" plugin-id="Sprite" sid="309691732548466">
@@ -235,6 +425,7 @@
                 <member>Attack2</member>
                 <member>Attack3</member>
                 <member>Attack4</member>
+                <member>Attack5</member>
             </members>
         </family>
         <family name="Enemigos" plugin-id="Sprite" sid="699454666691986">
