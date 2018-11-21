@@ -21,12 +21,14 @@
         <behavior author="Scirra" id="Pin" version="1">Pin</behavior>
         <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
         <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
+        <behavior author="Scirra" id="Timer" version="1">Timer</behavior>
         <behavior author="Scirra" id="Turret" version="1">Turret</behavior>
         <behavior author="Scirra" id="custom" version="1">Custom Movement</behavior>
         <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
         <behavior author="Scirra" id="solid" version="1">Solid</behavior>
     </used-behaviors>
     <used-effects>
+        <effect author="Scirra" id="setcolor">Set color</effect>
         <effect author="Scirra" id="tint">Tint</effect>
     </used-effects>
     <configurations>
@@ -55,6 +57,115 @@
         <prop name="Use high-DPI display">Yes</prop>
     </configuration-settings>
     <object-folder>
+        <object-folder name="Miscelaneos">
+            <object-type name="Gamepad" sid="974458376899557">
+                <plugin id="gamepad" />
+            </object-type>
+            <object-type name="Keyboard" sid="747645281358314">
+                <plugin id="Keyboard" />
+            </object-type>
+        </object-folder>
+        <object-folder name="Text">
+            <object-type name="Text" sid="114556172520400">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="Text2" sid="150523460206168">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="Text3" sid="320329652187293">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="Text4" sid="881583163996669">
+                <plugin id="Text" />
+            </object-type>
+        </object-folder>
+        <object-folder name="Cajitas">
+            <object-type name="Attack1" sid="116245135146132">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="653685398706206" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Attack2" sid="305214449693758">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="418588106730692" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Attack4" sid="933789695049097">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="381443911902620" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Attack3" sid="222028625727255">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="737674625246912" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Attack5" sid="540853873483915">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="143699317176014" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="1" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="FuegoAliado" sid="346217587857320">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Bullet" sid="859068779025343">
+                        <behavior id="Bullet" />
+                    </behavior-type>
+                    <behavior-type name="Fade" sid="343724271325125">
+                        <behavior id="Fade" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="267221004695488" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Fuego" sid="307780865831906">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Bullet" sid="537945933903312">
+                        <behavior id="Bullet" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="163335149397660" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="FuegoAliado2" sid="703251925279623">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Bullet" sid="524169988035470">
+                        <behavior id="Bullet" />
+                    </behavior-type>
+                    <behavior-type name="Fade" sid="830325450082829">
+                        <behavior id="Fade" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="380653076076325" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
         <object-type name="Player" sid="472065806604174">
             <plugin id="Sprite" />
             <instance-variables>
@@ -62,6 +173,10 @@
                 <instance-variable name="Vida" sid="626361770803062" type="number" />
                 <instance-variable name="Daño" sid="303386877068893" type="number" />
                 <instance-variable name="Direccion" sid="343390673596673" type="number" />
+                <instance-variable name="estado" sid="233213814906127" type="string" />
+                <instance-variable name="DashActive" sid="325471086407645" type="boolean" />
+                <instance-variable name="DashSpeed" sid="400335363903491" type="number" />
+                <instance-variable name="Dashtime" sid="525373529217261" type="number" />
             </instance-variables>
             <behaviors>
                 <behavior-type name="Platform" sid="319694107052990">
@@ -69,6 +184,9 @@
                 </behavior-type>
                 <behavior-type name="ScrollTo" sid="385047240578263">
                     <behavior id="scrollto" />
+                </behavior-type>
+                <behavior-type name="Timer" sid="677765466263272">
+                    <behavior id="Timer" />
                 </behavior-type>
             </behaviors>
             <effects>
@@ -209,7 +327,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Sprite" sid="297540323840731">
+        <object-type name="Solido" sid="297540323840731">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="Solid" sid="349064923054919">
@@ -237,44 +355,6 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Attack1" sid="116245135146132">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="653685398706206" speed="5">
-                    <frame duration="1" hotspotX="0" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Keyboard" sid="747645281358314">
-            <plugin id="Keyboard" />
-        </object-type>
-        <object-type name="Gamepad" sid="974458376899557">
-            <plugin id="gamepad" />
-        </object-type>
-        <object-type name="Attack2" sid="305214449693758">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="418588106730692" speed="5">
-                    <frame duration="1" hotspotX="0" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Attack3" sid="222028625727255">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="737674625246912" speed="5">
-                    <frame duration="1" hotspotX="0" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Attack4" sid="933789695049097">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="381443911902620" speed="5">
-                    <frame duration="1" hotspotX="0" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
         <object-type name="EnemigoFuego" sid="672828309138772">
             <plugin id="Sprite" />
             <behaviors>
@@ -289,52 +369,6 @@
                     </frame>
                 </animation>
             </animation-folder>
-        </object-type>
-        <object-type name="Fuego" sid="307780865831906">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="Bullet" sid="537945933903312">
-                    <behavior id="Bullet" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="163335149397660" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Sprite2" sid="879617326624297">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="834193044788541" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="FuegoAliado" sid="346217587857320">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="Bullet" sid="859068779025343">
-                    <behavior id="Bullet" />
-                </behavior-type>
-                <behavior-type name="Fade" sid="343724271325125">
-                    <behavior id="Fade" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="267221004695488" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Text" sid="114556172520400">
-            <plugin id="Text" />
-        </object-type>
-        <object-type name="Text2" sid="150523460206168">
-            <plugin id="Text" />
-        </object-type>
-        <object-type name="Text3" sid="320329652187293">
-            <plugin id="Text" />
         </object-type>
         <object-type name="IndicadorAbsorber" sid="160743781436488">
             <plugin id="Sprite" />
@@ -352,34 +386,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Text4" sid="881583163996669">
-            <plugin id="Text" />
-        </object-type>
-        <object-type name="Attack5" sid="540853873483915">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="143699317176014" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="1" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="FuegoAliado2" sid="703251925279623">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="Bullet" sid="524169988035470">
-                    <behavior id="Bullet" />
-                </behavior-type>
-                <behavior-type name="Fade" sid="830325450082829">
-                    <behavior id="Fade" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="380653076076325" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="particle_" sid="744512849388458">
+        <object-type name="particle" sid="744512849388458">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="CustomMovement" sid="467117065154794">
@@ -392,6 +399,11 @@
                     <behavior id="Fade" />
                 </behavior-type>
             </behaviors>
+            <effects>
+                <effect-type name="SetColor">
+                    <effect id="setcolor" />
+                </effect-type>
+            </effects>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="820230719169170" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.504348" original-source="C:\Users\Vermillion\Desktop\particle_2.png">
@@ -409,7 +421,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Sprite3" sid="868642976277219">
+        <object-type name="Background" sid="868642976277219">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="104332119820583" speed="5">

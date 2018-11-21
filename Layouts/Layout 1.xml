@@ -29,7 +29,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="Sprite3" uid="21">
+                <instance type="Background" uid="21">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -82,6 +82,10 @@
                         <Vida>100</Vida>
                         <Daño>5</Daño>
                         <Direccion>0</Direccion>
+                        <estado>1</estado>
+                        <DashActive>false</DashActive>
+                        <DashSpeed>1000</DashSpeed>
+                        <Dashtime>1</Dashtime>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Platform">
@@ -103,6 +107,7 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="Timer" />
                     </behavior-instances>
                     <effect-instances>
                         <effect-instance type="Tint">
@@ -128,7 +133,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite" uid="1">
+                <instance type="Solido" uid="1">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -553,7 +558,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite" uid="17">
+                <instance type="Solido" uid="17">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -647,7 +652,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="particle_" uid="20">
+                <instance type="particle" uid="20">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -685,6 +690,15 @@
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
+                    <effect-instances>
+                        <effect-instance type="SetColor">
+                            <parameters>
+                                <blue>1</blue>
+                                <green>1</green>
+                                <red>1</red>
+                            </parameters>
+                        </effect-instance>
+                    </effect-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
