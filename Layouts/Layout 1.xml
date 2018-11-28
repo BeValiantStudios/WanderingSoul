@@ -320,8 +320,8 @@
                         <x>238</x>
                         <y>-211</y>
                         <z>0</z>
-                        <width>44.721359253</width>
-                        <height>44.721359253</height>
+                        <width>91.58934021</width>
+                        <height>91.58934021</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -363,8 +363,8 @@
                         <x>88</x>
                         <y>-422</y>
                         <z>0</z>
-                        <width>44.721000671</width>
-                        <height>44.721000671</height>
+                        <width>91.588607788</width>
+                        <height>91.588607788</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -603,8 +603,8 @@
                         <x>280</x>
                         <y>-451</y>
                         <z>0</z>
-                        <width>44.721000671</width>
-                        <height>44.721000671</height>
+                        <width>91.588607788</width>
+                        <height>91.588607788</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -887,9 +887,9 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <Vida>50</Vida>
+                        <Vida>100</Vida>
                         <Absorbible>0</Absorbible>
-                        <ID>1</ID>
+                        <ID>3</ID>
                         <Direccion>0</Direccion>
                     </instance-variables>
                     <behavior-instances>

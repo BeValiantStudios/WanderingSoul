@@ -175,68 +175,162 @@
         </event-group>
         <event-group description="" inactive="1" sid="279868020991929" title="EspadaFuego">
             <sub-events>
-                <event-block sid="663031900901514">
+                <event-block sid="139800302295843">
                     <conditions>
-                        <condition id="-18" name="On created" sid="476178450837577" type="Attack1" />
+                        <condition id="7" name="Is mirrored" sid="616287587173154" type="Player" />
                     </conditions>
-                    <actions>
-                        <action id="0" name="Spawn another object" sid="454195778042228" type="Attack1">
-                            <param id="0" name="Object">FuegoAliado</param>
-                            <param id="1" name="Layer">0</param>
-                            <param id="2" name="Image point">0</param>
-                        </action>
-                    </actions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="600709500680127">
+                            <conditions>
+                                <condition id="-18" name="On created" sid="126532058562276" type="Attack1" />
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Spawn another object" sid="331647523226346" type="Attack1">
+                                    <param id="0" name="Object">FuegoAliado</param>
+                                    <param id="1" name="Layer">0</param>
+                                    <param id="2" name="Image point">0</param>
+                                </action>
+                                <action id="-18" name="Rotate clockwise" sid="802641499768664" type="FuegoAliado">
+                                    <param id="0" name="Degrees">180</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="403090110350574">
+                            <conditions>
+                                <condition id="-18" name="On created" sid="158691853241068" type="Attack2" />
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Spawn another object" sid="963706658388096" type="Attack2">
+                                    <param id="0" name="Object">FuegoAliado</param>
+                                    <param id="1" name="Layer">0</param>
+                                    <param id="2" name="Image point">0</param>
+                                </action>
+                                <action id="-18" name="Rotate clockwise" sid="365500842721250" type="FuegoAliado">
+                                    <param id="0" name="Degrees">180</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="738103391008094">
+                            <conditions>
+                                <condition id="-18" name="On created" sid="309204298129125" type="Attack3" />
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Spawn another object" sid="692388734960395" type="Attack3">
+                                    <param id="0" name="Object">FuegoAliado</param>
+                                    <param id="1" name="Layer">0</param>
+                                    <param id="2" name="Image point">0</param>
+                                </action>
+                                <action id="-18" name="Rotate clockwise" sid="580733097155313" type="FuegoAliado">
+                                    <param id="0" name="Degrees">180</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="895930912339921">
+                            <conditions>
+                                <condition id="-18" name="On created" sid="900823283673626" type="Attack4" />
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Spawn another object" sid="821110606591194" type="Attack4">
+                                    <param id="0" name="Object">FuegoAliado</param>
+                                    <param id="1" name="Layer">0</param>
+                                    <param id="2" name="Image point">0</param>
+                                </action>
+                                <action id="-18" name="Rotate clockwise" sid="624529712714971" type="FuegoAliado">
+                                    <param id="0" name="Degrees">180</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="797549051928476">
+                            <conditions>
+                                <condition id="-18" name="On created" sid="474910318865135" type="Attack5" />
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Spawn another object" sid="364424647928974" type="Attack5">
+                                    <param id="0" name="Object">FuegoAliado2</param>
+                                    <param id="1" name="Layer">0</param>
+                                    <param id="2" name="Image point">0</param>
+                                </action>
+                                <action id="-18" name="Rotate clockwise" sid="929484711894011" type="FuegoAliado2">
+                                    <param id="0" name="Degrees">-90</param>
+                                </action>
+                                <action id="-18" name="Rotate clockwise" sid="921072846852551" type="FuegoAliado">
+                                    <param id="0" name="Degrees">180</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
                 </event-block>
-                <event-block sid="871087742694096">
+                <event-block sid="479505644463988">
                     <conditions>
-                        <condition id="-18" name="On created" sid="203855121005029" type="Attack2" />
+                        <condition id="7" inverted="1" name="Is mirrored" sid="112380819744528" type="Player" />
                     </conditions>
-                    <actions>
-                        <action id="0" name="Spawn another object" sid="370980485926259" type="Attack2">
-                            <param id="0" name="Object">FuegoAliado</param>
-                            <param id="1" name="Layer">0</param>
-                            <param id="2" name="Image point">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="769105360327605">
-                    <conditions>
-                        <condition id="-18" name="On created" sid="274822711211823" type="Attack3" />
-                    </conditions>
-                    <actions>
-                        <action id="0" name="Spawn another object" sid="823847325610927" type="Attack3">
-                            <param id="0" name="Object">FuegoAliado</param>
-                            <param id="1" name="Layer">0</param>
-                            <param id="2" name="Image point">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="983964000750153">
-                    <conditions>
-                        <condition id="-18" name="On created" sid="475241976480523" type="Attack4" />
-                    </conditions>
-                    <actions>
-                        <action id="0" name="Spawn another object" sid="102552109768149" type="Attack4">
-                            <param id="0" name="Object">FuegoAliado</param>
-                            <param id="1" name="Layer">0</param>
-                            <param id="2" name="Image point">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="303409236333417">
-                    <conditions>
-                        <condition id="-18" name="On created" sid="798205500666352" type="Attack5" />
-                    </conditions>
-                    <actions>
-                        <action id="0" name="Spawn another object" sid="881824569070077" type="Attack5">
-                            <param id="0" name="Object">FuegoAliado2</param>
-                            <param id="1" name="Layer">0</param>
-                            <param id="2" name="Image point">0</param>
-                        </action>
-                        <action id="-18" name="Rotate clockwise" sid="821574770185273" type="FuegoAliado2">
-                            <param id="0" name="Degrees">-90</param>
-                        </action>
-                    </actions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="663031900901514">
+                            <conditions>
+                                <condition id="-18" name="On created" sid="476178450837577" type="Attack1" />
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Spawn another object" sid="454195778042228" type="Attack1">
+                                    <param id="0" name="Object">FuegoAliado</param>
+                                    <param id="1" name="Layer">0</param>
+                                    <param id="2" name="Image point">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="871087742694096">
+                            <conditions>
+                                <condition id="-18" name="On created" sid="203855121005029" type="Attack2" />
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Spawn another object" sid="370980485926259" type="Attack2">
+                                    <param id="0" name="Object">FuegoAliado</param>
+                                    <param id="1" name="Layer">0</param>
+                                    <param id="2" name="Image point">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="769105360327605">
+                            <conditions>
+                                <condition id="-18" name="On created" sid="274822711211823" type="Attack3" />
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Spawn another object" sid="823847325610927" type="Attack3">
+                                    <param id="0" name="Object">FuegoAliado</param>
+                                    <param id="1" name="Layer">0</param>
+                                    <param id="2" name="Image point">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="983964000750153">
+                            <conditions>
+                                <condition id="-18" name="On created" sid="475241976480523" type="Attack4" />
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Spawn another object" sid="102552109768149" type="Attack4">
+                                    <param id="0" name="Object">FuegoAliado</param>
+                                    <param id="1" name="Layer">0</param>
+                                    <param id="2" name="Image point">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="303409236333417">
+                            <conditions>
+                                <condition id="-18" name="On created" sid="798205500666352" type="Attack5" />
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Spawn another object" sid="881824569070077" type="Attack5">
+                                    <param id="0" name="Object">FuegoAliado2</param>
+                                    <param id="1" name="Layer">0</param>
+                                    <param id="2" name="Image point">0</param>
+                                </action>
+                                <action id="-18" name="Rotate clockwise" sid="821574770185273" type="FuegoAliado2">
+                                    <param id="0" name="Degrees">-90</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
                 </event-block>
             </sub-events>
         </event-group>
@@ -523,6 +617,31 @@
                         <action id="-9" name="Destroy" sid="533778997602533" type="Volador" />
                     </actions>
                 </event-block>
+                <event-block sid="308705491223497">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="146728271851855" type="Keyboard">
+                            <param id="0" name="Key">76</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="599653401441366" type="Enemigos">
+                            <param id="0" name="Instance variable">Absorbible</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="394730554888583" type="Enemigos">
+                            <param id="0" name="Instance variable">ID</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="481958057752617" type="EnemigoTortuga" />
+                        <action id="-9" name="Destroy" sid="870313652777195" type="IndicadorAbsorber" />
+                        <action id="-10" name="Set value" sid="990322162768108" type="Player">
+                            <param id="0" name="Instance variable">Vida</param>
+                            <param id="1" name="Value">100</param>
+                        </action>
+                    </actions>
+                </event-block>
                 <event-block sid="732009038983335">
                     <conditions>
                         <condition id="0" name="On key pressed" sid="224293641297535" type="Keyboard">
@@ -690,7 +809,7 @@
                         <action id="-28" name="Set effect parameter" sid="569439662589591" type="Player">
                             <param id="0" name="Effect">&quot;Tint&quot;</param>
                             <param id="1" name="Parameter index">1</param>
-                            <param id="2" name="Value">Player.Vida</param>
+                            <param id="2" name="Value">Player.Vida+5</param>
                         </action>
                         <action id="-28" name="Set effect parameter" sid="226554504999248" type="Player">
                             <param id="0" name="Effect">&quot;Tint&quot;</param>
@@ -770,9 +889,6 @@
                         <action id="7" name="Set mirrored" sid="266715075907589" type="FuegoAliado">
                             <param id="0" name="State">1</param>
                         </action>
-                        <action behavior="Bullet" id="0" name="Set speed" sid="748900240559966" type="FuegoAliado">
-                            <param id="0" name="Speed">1000</param>
-                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="847017266612852">
@@ -792,12 +908,6 @@
                         </action>
                         <action id="7" name="Set mirrored" sid="816497759018020" type="FuegoAliado">
                             <param id="0" name="State">0</param>
-                        </action>
-                        <action behavior="Bullet" id="0" name="Set speed" sid="558482296882748" type="FuegoAliado">
-                            <param id="0" name="Speed">-1000</param>
-                        </action>
-                        <action behavior="Bullet" id="1" name="Set acceleration" sid="548638603842223" type="FuegoAliado">
-                            <param id="0" name="Acceleration">-1000</param>
                         </action>
                     </actions>
                 </event-block>
@@ -1353,6 +1463,32 @@
                     <param id="2" name="Loop">1</param>
                     <param id="3" name="Volume">-10</param>
                     <param id="1" name="Tag (optional)">&quot;OST&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="493449862880095">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="820724033967718" type="FuegoAliado">
+                    <param id="0" name="Object">Enemigos</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-12" name="Subtract from" sid="186295622993664" type="Enemigos">
+                    <param id="0" name="Instance variable">Vida</param>
+                    <param id="1" name="Value">5</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="505511307779721">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="422883783833355" type="FuegoAliado2">
+                    <param id="0" name="Object">Enemigos</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-12" name="Subtract from" sid="675453092018741" type="Enemigos">
+                    <param id="0" name="Instance variable">Vida</param>
+                    <param id="1" name="Value">5</param>
                 </action>
             </actions>
         </event-block>
