@@ -466,7 +466,6 @@
             <plugin id="Sprite" />
             <instance-variables>
                 <instance-variable name="Rango" sid="535038303806836" type="number" />
-                <instance-variable name="Absorbible" sid="232810922557338" type="number" />
             </instance-variables>
             <behaviors>
                 <behavior-type name="Turret" sid="408180169127898">
@@ -518,6 +517,8 @@
             <members>
                 <member>EnemigoBasico</member>
                 <member>EnemigoTortuga</member>
+                <member>Mogo</member>
+                <member>Volador</member>
             </members>
             <instance-variables>
                 <instance-variable name="Vida" sid="752358728899152" type="number" />

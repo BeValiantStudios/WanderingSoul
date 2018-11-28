@@ -680,6 +680,9 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
+                        <Vida>50</Vida>
+                        <Absorbible>0</Absorbible>
+                        <ID>1</ID>
                         <VelocidadX>200</VelocidadX>
                         <VelocidadY>100</VelocidadY>
                     </instance-variables>
@@ -773,6 +776,9 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
+                        <Vida>50</Vida>
+                        <Absorbible>0</Absorbible>
+                        <ID>1</ID>
                         <VelocidadX>200</VelocidadX>
                         <VelocidadY>100</VelocidadY>
                     </instance-variables>
@@ -808,8 +814,10 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <Rango>450</Rango>
+                        <Vida>50</Vida>
                         <Absorbible>0</Absorbible>
+                        <ID>1</ID>
+                        <Rango>450</Rango>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Turret">
