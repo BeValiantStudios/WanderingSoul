@@ -533,6 +533,12 @@
                         <action behavior="Platform" id="7" name="Simulate control" sid="146291132269806" type="Player">
                             <param id="0" name="Control">2</param>
                         </action>
+                        <action id="0" name="Play" sid="622985517310088" type="Audio">
+                            <param id="0" name="Audio file">altosaltoe</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;SFX&quot;</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="700109366687624">
@@ -1321,6 +1327,34 @@
                     </actions>
                 </event-block>
             </sub-events>
+        </event-block>
+        <event-block sid="268201280391283">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="614046074849649" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="498821480576645" type="Audio">
+                    <param id="0" name="Audio file">introintro</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">-10</param>
+                    <param id="1" name="Tag (optional)">&quot;IntroOST&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="620089309534008">
+            <conditions>
+                <condition id="0" name="On ended" sid="382683672373588" type="Audio">
+                    <param id="0" name="Tag">&quot;IntroOST&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="362390060464836" type="Audio">
+                    <param id="0" name="Audio file">intro</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">-10</param>
+                    <param id="1" name="Tag (optional)">&quot;OST&quot;</param>
+                </action>
+            </actions>
         </event-block>
     </events>
 </c2eventsheet>
