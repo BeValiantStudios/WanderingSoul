@@ -556,8 +556,8 @@
                         <collision-poly>
                             <point x="0.484152" y="0.219072" />
                             <point x="0.675497" y="0.219072" />
-                            <point x="0.675497" y="0.876289" />
-                            <point x="0.484152" y="0.876289" />
+                            <point x="0.675497" y="0.881443" />
+                            <point x="0.497397" y="0.881443" />
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.547461" hotspotY="0.876289" original-source="D:\EdgardDeveloper\shotopof\exportados\Wandering\Run\Run\Run_02.png">
@@ -574,8 +574,8 @@
                         <collision-poly>
                             <point x="0.484152" y="0.219072" />
                             <point x="0.675497" y="0.219072" />
-                            <point x="0.675497" y="0.876289" />
-                            <point x="0.484152" y="0.876289" />
+                            <point x="0.675497" y="0.881443" />
+                            <point x="0.497397" y="0.881443" />
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.547461" hotspotY="0.876289" original-source="D:\EdgardDeveloper\shotopof\exportados\Wandering\Run\Run\Run_03.png">
@@ -592,8 +592,8 @@
                         <collision-poly>
                             <point x="0.484152" y="0.219072" />
                             <point x="0.675497" y="0.219072" />
-                            <point x="0.675497" y="0.876289" />
-                            <point x="0.484152" y="0.876289" />
+                            <point x="0.675497" y="0.881443" />
+                            <point x="0.497397" y="0.881443" />
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.547461" hotspotY="0.876289" original-source="D:\EdgardDeveloper\shotopof\exportados\Wandering\Run\Run\Run_04.png">
@@ -610,8 +610,8 @@
                         <collision-poly>
                             <point x="0.484152" y="0.219072" />
                             <point x="0.675497" y="0.219072" />
-                            <point x="0.675497" y="0.876289" />
-                            <point x="0.484152" y="0.876289" />
+                            <point x="0.675497" y="0.881443" />
+                            <point x="0.497397" y="0.881443" />
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.547461" hotspotY="0.876289" original-source="D:\EdgardDeveloper\shotopof\exportados\Wandering\Run\Run\Run_05.png">
@@ -628,8 +628,8 @@
                         <collision-poly>
                             <point x="0.484152" y="0.219072" />
                             <point x="0.675497" y="0.219072" />
-                            <point x="0.675497" y="0.876289" />
-                            <point x="0.484152" y="0.876289" />
+                            <point x="0.675497" y="0.881443" />
+                            <point x="0.497397" y="0.881443" />
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.547461" hotspotY="0.876289" original-source="D:\EdgardDeveloper\shotopof\exportados\Wandering\Run\Run\Run_06.png">
@@ -646,8 +646,8 @@
                         <collision-poly>
                             <point x="0.484152" y="0.219072" />
                             <point x="0.675497" y="0.219072" />
-                            <point x="0.675497" y="0.876289" />
-                            <point x="0.484152" y="0.876289" />
+                            <point x="0.675497" y="0.881443" />
+                            <point x="0.497397" y="0.881443" />
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.547461" hotspotY="0.876289" original-source="D:\EdgardDeveloper\shotopof\exportados\Wandering\Run\Run\Run_07.png">
@@ -664,8 +664,8 @@
                         <collision-poly>
                             <point x="0.484152" y="0.219072" />
                             <point x="0.675497" y="0.219072" />
-                            <point x="0.675497" y="0.876289" />
-                            <point x="0.484152" y="0.876289" />
+                            <point x="0.675497" y="0.881443" />
+                            <point x="0.497397" y="0.881443" />
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.547461" hotspotY="0.876289" original-source="D:\EdgardDeveloper\shotopof\exportados\Wandering\Run\Run\Run_08.png">
@@ -682,8 +682,8 @@
                         <collision-poly>
                             <point x="0.484152" y="0.219072" />
                             <point x="0.675497" y="0.219072" />
-                            <point x="0.675497" y="0.876289" />
-                            <point x="0.484152" y="0.876289" />
+                            <point x="0.675497" y="0.881443" />
+                            <point x="0.497397" y="0.881443" />
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.547461" hotspotY="0.876289" original-source="D:\EdgardDeveloper\shotopof\exportados\Wandering\Run\Run\Run_09.png">
@@ -700,8 +700,8 @@
                         <collision-poly>
                             <point x="0.484152" y="0.219072" />
                             <point x="0.675497" y="0.219072" />
-                            <point x="0.675497" y="0.876289" />
-                            <point x="0.484152" y="0.876289" />
+                            <point x="0.675497" y="0.881443" />
+                            <point x="0.497397" y="0.881443" />
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.547461" hotspotY="0.876289" original-source="D:\EdgardDeveloper\shotopof\exportados\Wandering\Run\Run\Run_10.png">
@@ -718,8 +718,8 @@
                         <collision-poly>
                             <point x="0.484152" y="0.219072" />
                             <point x="0.675497" y="0.219072" />
-                            <point x="0.675497" y="0.876289" />
-                            <point x="0.484152" y="0.876289" />
+                            <point x="0.675497" y="0.881443" />
+                            <point x="0.497397" y="0.881443" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -727,40 +727,40 @@
                     <frame duration="3" hotspotX="0.179245" hotspotY="0.935606" original-source="D:\EdgardDeveloper\shotopof\exportados\Wandering\Attack\attack_01.png">
                         <collision-poly>
                             <point x="0.235849" y="0.537879" />
-                            <point x="0.231132" y="0.935606" />
-                            <point x="0.135849" y="0.935606" />
+                            <point x="0.231132" y="0.939394" />
+                            <point x="0.135849" y="0.939394" />
                             <point x="0.133962" y="0.539773" />
                         </collision-poly>
                     </frame>
                     <frame duration="2" hotspotX="0.179245" hotspotY="0.935606" original-source="D:\EdgardDeveloper\shotopof\exportados\Wandering\Attack\attack_02.png">
                         <collision-poly>
                             <point x="0.235849" y="0.537879" />
-                            <point x="0.231132" y="0.935606" />
-                            <point x="0.135849" y="0.935606" />
+                            <point x="0.231132" y="0.939394" />
+                            <point x="0.135849" y="0.939394" />
                             <point x="0.133962" y="0.539773" />
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.179245" hotspotY="0.935606" original-source="D:\EdgardDeveloper\shotopof\exportados\Wandering\Attack\attack_03.png">
                         <collision-poly>
                             <point x="0.235849" y="0.537879" />
-                            <point x="0.231132" y="0.935606" />
-                            <point x="0.135849" y="0.935606" />
+                            <point x="0.231132" y="0.939394" />
+                            <point x="0.135849" y="0.939394" />
                             <point x="0.133962" y="0.539773" />
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.179245" hotspotY="0.935606" original-source="D:\EdgardDeveloper\shotopof\exportados\Wandering\Attack\attack_04.png">
                         <collision-poly>
                             <point x="0.235849" y="0.537879" />
-                            <point x="0.231132" y="0.935606" />
-                            <point x="0.135849" y="0.935606" />
+                            <point x="0.231132" y="0.939394" />
+                            <point x="0.135849" y="0.939394" />
                             <point x="0.133962" y="0.539773" />
                         </collision-poly>
                     </frame>
                     <frame duration="2" hotspotX="0.179245" hotspotY="0.935606" original-source="D:\EdgardDeveloper\shotopof\exportados\Wandering\Attack\attack_05.png">
                         <collision-poly>
                             <point x="0.235849" y="0.537879" />
-                            <point x="0.231132" y="0.935606" />
-                            <point x="0.135849" y="0.935606" />
+                            <point x="0.231132" y="0.939394" />
+                            <point x="0.135849" y="0.939394" />
                             <point x="0.133962" y="0.539773" />
                         </collision-poly>
                     </frame>
@@ -770,82 +770,82 @@
                         <collision-poly>
                             <point x="0.36342" y="0.735211" />
                             <point x="0.553444" y="0.735211" />
-                            <point x="0.551069" y="0.969953" />
-                            <point x="0.359858" y="0.969954" />
+                            <point x="0.551069" y="0.970892" />
+                            <point x="0.359858" y="0.970892" />
                         </collision-poly>
                     </frame>
                     <frame duration="2" hotspotX="0.453682" hotspotY="0.969014" original-source="D:\EdgardDeveloper\shotopof\exportados\Wandering\Attack\Up_Attack_02.png">
                         <collision-poly>
                             <point x="0.36342" y="0.735211" />
                             <point x="0.553444" y="0.735211" />
-                            <point x="0.551069" y="0.969953" />
-                            <point x="0.359858" y="0.969954" />
+                            <point x="0.551069" y="0.970892" />
+                            <point x="0.359858" y="0.970892" />
                         </collision-poly>
                     </frame>
                     <frame duration="2" hotspotX="0.453682" hotspotY="0.969014" original-source="D:\EdgardDeveloper\shotopof\exportados\Wandering\Attack\Up_Attack_03.png">
                         <collision-poly>
                             <point x="0.36342" y="0.735211" />
                             <point x="0.553444" y="0.735211" />
-                            <point x="0.551069" y="0.969953" />
-                            <point x="0.359858" y="0.969954" />
+                            <point x="0.551069" y="0.970892" />
+                            <point x="0.359858" y="0.970892" />
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.527316" hotspotY="0.989671" original-source="D:\EdgardDeveloper\shotopof\exportados\Wandering\Attack\Up_Attack_04.png">
                         <collision-poly>
                             <point x="0.36342" y="0.735211" />
                             <point x="0.553444" y="0.735211" />
-                            <point x="0.551069" y="0.969953" />
-                            <point x="0.359858" y="0.969954" />
+                            <point x="0.551069" y="0.970892" />
+                            <point x="0.359858" y="0.970892" />
                         </collision-poly>
                     </frame>
                     <frame duration="2" hotspotX="0.527316" hotspotY="0.991549" original-source="D:\EdgardDeveloper\shotopof\exportados\Wandering\Attack\Up_Attack_05.png">
                         <collision-poly>
                             <point x="0.36342" y="0.735211" />
                             <point x="0.553444" y="0.735211" />
-                            <point x="0.551069" y="0.969953" />
-                            <point x="0.359858" y="0.969954" />
+                            <point x="0.551069" y="0.970892" />
+                            <point x="0.359858" y="0.970892" />
                         </collision-poly>
                     </frame>
                 </animation>
                 <animation framecount="5" loop="1" name="Attack_D" pingpong="0" repeatcount="1" repeatto="0" sid="973097682727632" speed="18">
                     <frame duration="3" hotspotX="0.457965" hotspotY="0.452582" original-source="D:\EdgardDeveloper\shotopof\exportados\Wandering\Attack\Down_attack_01.png">
                         <collision-poly>
-                            <point x="0.396018" y="0.458216" />
+                            <point x="0.396018" y="0.45446" />
                             <point x="0.396018" y="0.226291" />
                             <point x="0.55531" y="0.225352" />
-                            <point x="0.55531" y="0.458216" />
+                            <point x="0.55531" y="0.45446" />
                         </collision-poly>
                     </frame>
                     <frame duration="2" hotspotX="0.5" hotspotY="0.50047" original-source="D:\EdgardDeveloper\shotopof\exportados\Wandering\Attack\Down_attack_02.png">
                         <collision-poly>
-                            <point x="0.396018" y="0.458216" />
+                            <point x="0.396018" y="0.45446" />
                             <point x="0.396018" y="0.226291" />
                             <point x="0.55531" y="0.225352" />
-                            <point x="0.55531" y="0.458216" />
+                            <point x="0.55531" y="0.45446" />
                         </collision-poly>
                     </frame>
                     <frame duration="2" hotspotX="0.5" hotspotY="0.50047" original-source="D:\EdgardDeveloper\shotopof\exportados\Wandering\Attack\Down_attack_03.png">
                         <collision-poly>
-                            <point x="0.449115" y="0.415023" />
-                            <point x="0.449115" y="0.183099" />
-                            <point x="0.608408" y="0.18216" />
-                            <point x="0.608407" y="0.415023" />
+                            <point x="0.396018" y="0.45446" />
+                            <point x="0.396018" y="0.226291" />
+                            <point x="0.55531" y="0.225352" />
+                            <point x="0.55531" y="0.45446" />
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.5" hotspotY="0.50047" original-source="D:\EdgardDeveloper\shotopof\exportados\Wandering\Attack\Down_attack_04.png">
                         <collision-poly>
-                            <point x="0.396018" y="0.351172" />
-                            <point x="0.396018" y="0.119249" />
-                            <point x="0.55531" y="0.11831" />
-                            <point x="0.55531" y="0.351172" />
+                            <point x="0.396018" y="0.45446" />
+                            <point x="0.396018" y="0.226291" />
+                            <point x="0.55531" y="0.225352" />
+                            <point x="0.55531" y="0.45446" />
                         </collision-poly>
                     </frame>
                     <frame duration="2" hotspotX="0.5" hotspotY="0.50047" original-source="D:\EdgardDeveloper\shotopof\exportados\Wandering\Attack\Down_attack_05.png">
                         <collision-poly>
-                            <point x="0.396018" y="0.327697" />
-                            <point x="0.396018" y="0.0957747" />
-                            <point x="0.55531" y="0.0948357" />
-                            <point x="0.55531" y="0.327697" />
+                            <point x="0.396018" y="0.45446" />
+                            <point x="0.396018" y="0.226291" />
+                            <point x="0.55531" y="0.225352" />
+                            <point x="0.55531" y="0.45446" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -854,24 +854,24 @@
                         <collision-poly>
                             <point x="0.402203" y="0.49053" />
                             <point x="0.652894" y="0.49053" />
-                            <point x="0.652894" y="0.945076" />
-                            <point x="0.402203" y="0.945076" />
+                            <point x="0.663913" y="0.943182" />
+                            <point x="0.402203" y="0.943182" />
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.53168" hotspotY="0.939394" original-source="D:\EdgardDeveloper\shotopof\exportados\Wandering\Jump\Jump_02.png">
                         <collision-poly>
                             <point x="0.402203" y="0.49053" />
                             <point x="0.652894" y="0.49053" />
-                            <point x="0.652894" y="0.945076" />
-                            <point x="0.402203" y="0.945076" />
+                            <point x="0.663913" y="0.943182" />
+                            <point x="0.402203" y="0.943182" />
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.53168" hotspotY="0.939394" original-source="D:\EdgardDeveloper\shotopof\exportados\Wandering\Jump\Jump_03.png">
                         <collision-poly>
                             <point x="0.402203" y="0.49053" />
                             <point x="0.652894" y="0.49053" />
-                            <point x="0.652894" y="0.945076" />
-                            <point x="0.402203" y="0.945076" />
+                            <point x="0.663913" y="0.943182" />
+                            <point x="0.402203" y="0.943182" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -880,8 +880,8 @@
                         <collision-poly>
                             <point x="0.36272" y="0.251852" />
                             <point x="0.63728" y="0.251852" />
-                            <point x="0.63728" y="0.923457" />
-                            <point x="0.36272" y="0.923457" />
+                            <point x="0.63728" y="0.91358" />
+                            <point x="0.36272" y="0.91358" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -890,8 +890,8 @@
                         <collision-poly>
                             <point x="0.413223" y="0.484848" />
                             <point x="0.663912" y="0.488636" />
-                            <point x="0.636364" y="0.935606" />
-                            <point x="0.402204" y="0.935606" />
+                            <point x="0.636364" y="0.941288" />
+                            <point x="0.402204" y="0.941288" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -1543,6 +1543,7 @@
             <plugin id="Sprite" />
             <instance-variables>
                 <instance-variable name="Rango" sid="535038303806836" type="number" />
+                <instance-variable name="Direccion" sid="483541877130115" type="number" />
             </instance-variables>
             <behaviors>
                 <behavior-type name="Turret" sid="408180169127898">
@@ -1559,10 +1560,32 @@
                 </behavior-type>
             </behaviors>
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="220797679038850" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
-                        <image-point name="Imagepoint 1" x="0.5" y="-0.156" />
-                    </frame>
+                <animation framecount="25" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="220797679038850" speed="140">
+                    <frame duration="1" hotspotX="0.501639" hotspotY="0.5" original-source="C:\Users\Vermillion\Desktop\vuelo\vuelo_000.png" />
+                    <frame duration="1" hotspotX="0.501639" hotspotY="0.5" original-source="C:\Users\Vermillion\Desktop\vuelo\vuelo_001.png" />
+                    <frame duration="1" hotspotX="0.501639" hotspotY="0.5" original-source="C:\Users\Vermillion\Desktop\vuelo\vuelo_002.png" />
+                    <frame duration="1" hotspotX="0.501639" hotspotY="0.5" original-source="C:\Users\Vermillion\Desktop\vuelo\vuelo_003.png" />
+                    <frame duration="1" hotspotX="0.501639" hotspotY="0.5" original-source="C:\Users\Vermillion\Desktop\vuelo\vuelo_004.png" />
+                    <frame duration="1" hotspotX="0.501639" hotspotY="0.5" original-source="C:\Users\Vermillion\Desktop\vuelo\vuelo_005.png" />
+                    <frame duration="1" hotspotX="0.501639" hotspotY="0.5" original-source="C:\Users\Vermillion\Desktop\vuelo\vuelo_006.png" />
+                    <frame duration="1" hotspotX="0.501639" hotspotY="0.5" original-source="C:\Users\Vermillion\Desktop\vuelo\vuelo_007.png" />
+                    <frame duration="1" hotspotX="0.501639" hotspotY="0.5" original-source="C:\Users\Vermillion\Desktop\vuelo\vuelo_008.png" />
+                    <frame duration="1" hotspotX="0.501639" hotspotY="0.5" original-source="C:\Users\Vermillion\Desktop\vuelo\vuelo_009.png" />
+                    <frame duration="1" hotspotX="0.501639" hotspotY="0.5" original-source="C:\Users\Vermillion\Desktop\vuelo\vuelo_010.png" />
+                    <frame duration="1" hotspotX="0.501639" hotspotY="0.5" original-source="C:\Users\Vermillion\Desktop\vuelo\vuelo_011.png" />
+                    <frame duration="1" hotspotX="0.501639" hotspotY="0.5" original-source="C:\Users\Vermillion\Desktop\vuelo\vuelo_012.png" />
+                    <frame duration="1" hotspotX="0.501639" hotspotY="0.5" original-source="C:\Users\Vermillion\Desktop\vuelo\vuelo_013.png" />
+                    <frame duration="1" hotspotX="0.501639" hotspotY="0.5" original-source="C:\Users\Vermillion\Desktop\vuelo\vuelo_014.png" />
+                    <frame duration="1" hotspotX="0.501639" hotspotY="0.5" original-source="C:\Users\Vermillion\Desktop\vuelo\vuelo_015.png" />
+                    <frame duration="1" hotspotX="0.501639" hotspotY="0.5" original-source="C:\Users\Vermillion\Desktop\vuelo\vuelo_016.png" />
+                    <frame duration="1" hotspotX="0.501639" hotspotY="0.5" original-source="C:\Users\Vermillion\Desktop\vuelo\vuelo_017.png" />
+                    <frame duration="1" hotspotX="0.501639" hotspotY="0.5" original-source="C:\Users\Vermillion\Desktop\vuelo\vuelo_018.png" />
+                    <frame duration="1" hotspotX="0.501639" hotspotY="0.5" original-source="C:\Users\Vermillion\Desktop\vuelo\vuelo_019.png" />
+                    <frame duration="1" hotspotX="0.501639" hotspotY="0.5" original-source="C:\Users\Vermillion\Desktop\vuelo\vuelo_020.png" />
+                    <frame duration="1" hotspotX="0.501639" hotspotY="0.5" original-source="C:\Users\Vermillion\Desktop\vuelo\vuelo_021.png" />
+                    <frame duration="1" hotspotX="0.501639" hotspotY="0.5" original-source="C:\Users\Vermillion\Desktop\vuelo\vuelo_022.png" />
+                    <frame duration="1" hotspotX="0.501639" hotspotY="0.5" original-source="C:\Users\Vermillion\Desktop\vuelo\vuelo_023.png" />
+                    <frame duration="1" hotspotX="0.501639" hotspotY="0.5" original-source="C:\Users\Vermillion\Desktop\vuelo\vuelo_024.png" />
                 </animation>
             </animation-folder>
         </object-type>

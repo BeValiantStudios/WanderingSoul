@@ -348,6 +348,10 @@
                         </condition>
                     </conditions>
                     <actions>
+                        <action id="-10" name="Set value" sid="239918570756402" type="Player">
+                            <param id="0" name="Instance variable">estado</param>
+                            <param id="1" name="Value">&quot;Attack&quot;</param>
+                        </action>
                         <action id="0" name="Spawn another object" sid="484894190540591" type="Player">
                             <param id="0" name="Object">Attack1</param>
                             <param id="1" name="Layer">0</param>
@@ -378,6 +382,10 @@
                         </condition>
                     </conditions>
                     <actions>
+                        <action id="-10" name="Set value" sid="959330792947235" type="Player">
+                            <param id="0" name="Instance variable">estado</param>
+                            <param id="1" name="Value">&quot;Attack&quot;</param>
+                        </action>
                         <action id="0" name="Spawn another object" sid="400287691233717" type="Player">
                             <param id="0" name="Object">Attack2</param>
                             <param id="1" name="Layer">0</param>
@@ -408,6 +416,10 @@
                         </condition>
                     </conditions>
                     <actions>
+                        <action id="-10" name="Set value" sid="806045589311249" type="Player">
+                            <param id="0" name="Instance variable">estado</param>
+                            <param id="1" name="Value">&quot;Attack&quot;</param>
+                        </action>
                         <action id="0" name="Spawn another object" sid="216512815817196" type="Player">
                             <param id="0" name="Object">Attack3</param>
                             <param id="1" name="Layer">0</param>
@@ -438,10 +450,18 @@
                         </condition>
                     </conditions>
                     <actions>
+                        <action id="-10" name="Set value" sid="532875294466383" type="Player">
+                            <param id="0" name="Instance variable">estado</param>
+                            <param id="1" name="Value">&quot;AttackDown&quot;</param>
+                        </action>
                         <action id="0" name="Spawn another object" sid="917389724117738" type="Player">
                             <param id="0" name="Object">Attack4</param>
                             <param id="1" name="Layer">0</param>
                             <param id="2" name="Image point">3</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="752501848859296" type="Player">
+                            <param id="0" name="Animation">&quot;Attack_D&quot;</param>
+                            <param id="1" name="From">1</param>
                         </action>
                         <action id="-10" name="Set value" sid="134163074037864" type="Player">
                             <param id="0" name="Instance variable">Combo</param>
@@ -678,6 +698,10 @@
                         <action behavior="Platform" id="7" name="Simulate control" sid="218815039859269" type="Player">
                             <param id="0" name="Control">0</param>
                         </action>
+                        <action id="-10" name="Set value" sid="175898982946392" type="Player">
+                            <param id="0" name="Instance variable">estado</param>
+                            <param id="1" name="Value">&quot;Run&quot;</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="465955278100226">
@@ -689,6 +713,10 @@
                     <actions>
                         <action behavior="Platform" id="7" name="Simulate control" sid="886074280415380" type="Player">
                             <param id="0" name="Control">1</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="689126686166219" type="Player">
+                            <param id="0" name="Instance variable">estado</param>
+                            <param id="1" name="Value">&quot;Run&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -707,6 +735,10 @@
                         </condition>
                     </conditions>
                     <actions>
+                        <action id="-10" name="Set value" sid="746021033015684" type="Player">
+                            <param id="0" name="Instance variable">estado</param>
+                            <param id="1" name="Value">&quot;AttackUp&quot;</param>
+                        </action>
                         <action id="0" name="Spawn another object" sid="682798291257458" type="Player">
                             <param id="0" name="Object">Attack5</param>
                             <param id="1" name="Layer">0</param>
@@ -1489,6 +1521,173 @@
                 <action id="-12" name="Subtract from" sid="675453092018741" type="Enemigos">
                     <param id="0" name="Instance variable">Vida</param>
                     <param id="1" name="Value">5</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="691260025434976">
+            <conditions>
+                <condition behavior="Platform" id="3" name="Is jumping" sid="368854313131208" type="Player" />
+            </conditions>
+            <actions>
+                <action id="-10" name="Set value" sid="776960566176005" type="Player">
+                    <param id="0" name="Instance variable">estado</param>
+                    <param id="1" name="Value">&quot;Jumping&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="659079304585862">
+            <conditions>
+                <condition behavior="Platform" id="5" name="On jump" sid="958003982250913" type="Player" />
+            </conditions>
+            <actions>
+                <action id="-10" name="Set value" sid="910852796107254" type="Player">
+                    <param id="0" name="Instance variable">estado</param>
+                    <param id="1" name="Value">&quot;Jump&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="395134037621362">
+            <conditions>
+                <condition behavior="Platform" id="4" name="Is falling" sid="657871399439678" type="Player" />
+            </conditions>
+            <actions>
+                <action id="-10" name="Set value" sid="472448405644877" type="Player">
+                    <param id="0" name="Instance variable">estado</param>
+                    <param id="1" name="Value">&quot;Fall&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="454057937043380">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="726572851086014" type="Player">
+                    <param id="0" name="Instance variable">estado</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">&quot;Idle&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="520684396991012" type="Player">
+                    <param id="0" name="Animation">&quot;Default&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="850574721042621">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="940317528718997" type="Player">
+                    <param id="0" name="Instance variable">estado</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">&quot;Run&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="715708602489270" type="Player">
+                    <param id="0" name="Animation">&quot;Correr&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="962018777773115">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="629250817448598" type="Player">
+                    <param id="0" name="Instance variable">estado</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">&quot;Jumping&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="346916555506014" type="Player">
+                    <param id="0" name="Animation">&quot;Jumping&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="843431403096482">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="929008992282305" type="Player">
+                    <param id="0" name="Instance variable">estado</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">&quot;Jump&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="718992391890249" type="Player">
+                    <param id="0" name="Animation">&quot;Jump&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="510011766593632">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="510791774981321" type="Player">
+                    <param id="0" name="Instance variable">estado</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">&quot;Attack&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="200460353596301" type="Player">
+                    <param id="0" name="Animation">&quot;Attack_R&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="-16" name="Wait" sid="330379682966056" type="System">
+                    <param id="0" name="Seconds">0.3</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="211248578285074">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="180253245377789" type="Player">
+                    <param id="0" name="Instance variable">estado</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">&quot;Fall&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="359590947777928" type="Player">
+                    <param id="0" name="Animation">&quot;Falling&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="895861137239084">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="491181027516771" type="Player">
+                    <param id="0" name="Instance variable">estado</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">&quot;AttackUp&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="642353310740871" type="Player">
+                    <param id="0" name="Animation">&quot;Attack_Up&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="113780733459474">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="241209338334678" type="Player">
+                    <param id="0" name="Instance variable">estado</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">&quot;AttackDown&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="284870444194617" type="Player">
+                    <param id="0" name="Animation">&quot;Attack_D&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="212167432579928">
+            <conditions>
+                <condition behavior="Platform" id="0" inverted="1" name="Is moving" sid="771061395344885" type="Player" />
+            </conditions>
+            <actions>
+                <action id="-10" name="Set value" sid="663608423296875" type="Player">
+                    <param id="0" name="Instance variable">estado</param>
+                    <param id="1" name="Value">&quot;Idle&quot;</param>
                 </action>
             </actions>
         </event-block>

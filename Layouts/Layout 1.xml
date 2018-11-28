@@ -820,6 +820,7 @@
                         <Absorbible>0</Absorbible>
                         <ID>2</ID>
                         <Rango>450</Rango>
+                        <Direccion>0</Direccion>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Turret">
@@ -870,10 +871,10 @@
                         <x>1000</x>
                         <y>211</y>
                         <z>0</z>
-                        <width>250</width>
-                        <height>250</height>
+                        <width>305</width>
+                        <height>156</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
+                        <hotspotX>0.501639366</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
