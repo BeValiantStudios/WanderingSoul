@@ -28,6 +28,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="object-folder/Miscelaneos/" />
         <folder expanded="1" path="object-folder/Text/" />
         <folder expanded="1" path="object-folder/Cajitas/" />
+        <folder expanded="1" path="object-folder/Piso/" />
         <folder expanded="1" path="layout-folder/" />
         <folder expanded="1" path="event-folder/" />
         <folder expanded="1" path="file-folder/" />
@@ -40,17 +41,21 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Attack3/" />
         <folder expanded="1" path="animation-folder/Attack5/" />
         <folder expanded="1" path="animation-folder/FuegoAliado/" />
-        <folder expanded="1" path="animation-folder/Fuego/" />
         <folder expanded="1" path="animation-folder/FuegoAliado2/" />
+        <folder expanded="1" path="animation-folder/Piso/" />
+        <folder expanded="1" path="animation-folder/Sprite/" />
         <folder expanded="1" path="animation-folder/Player/" />
         <folder expanded="1" path="animation-folder/Solido/" />
         <folder expanded="1" path="animation-folder/EnemigoBasico/" />
-        <folder expanded="1" path="animation-folder/EnemigoFuego/" />
         <folder expanded="1" path="animation-folder/IndicadorAbsorber/" />
         <folder expanded="1" path="animation-folder/particle/" />
         <folder expanded="1" path="animation-folder/Background/" />
         <folder expanded="1" path="animation-folder/EnemigoTortuga/" />
         <folder expanded="1" path="animation-folder/colision/" />
         <folder expanded="1" path="animation-folder/colision2/" />
+        <folder expanded="1" path="animation-folder/Mogo/" />
+        <folder expanded="1" path="animation-folder/Volador/" />
+        <folder expanded="1" path="animation-folder/VoladorDisparo/" />
+        <folder expanded="1" path="animation-folder/Respawn/" />
     </folders-expanded>
 </c2uistate>
