@@ -197,133 +197,701 @@
                 </effect-type>
             </effects>
             <animation-folder>
-                <animation framecount="4" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="424207309885834" speed="8">
-                    <frame duration="1" hotspotX="0.502463" hotspotY="0.975779" original-source="D:\EdgardDeveloper\Construct\WanderingSoul\Assets\Player\Idle\Idle_01.png">
-                        <image-point name="Imagepoint 1" x="1" y="0.50173" />
-                        <image-point name="Imagepoint 2" x="1" y="0.83045" />
-                        <image-point name="Imagepoint 3" x="1.00493" y="0.103806" />
-                        <image-point name="Imagepoint 4" x="0.502463" y="0.138408" />
-                        <image-point name="Imagepoint 5" x="0" y="0.138408" />
-                        <image-point name="Imagepoint 6" x="1" y="0.138408" />
-                        <image-point name="Imagepoint 7" x="0.842365" y="0.138408" />
-                        <image-point name="Imagepoint 8" x="0.674877" y="0.138408" />
-                        <image-point name="Imagepoint 9" x="0.167488" y="0.138408" />
-                        <image-point name="Imagepoint 10" x="0.339901" y="0.138408" />
+                <animation framecount="19" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="424207309885834" speed="12">
+                    <frame duration="1" hotspotX="0.502008" hotspotY="0.993921" original-source="D:\EdgardDeveloper\shotopof\exportados\Wandering\Idle\Idle_01.png">
+                        <image-point name="Imagepoint 1" x="1" y="0.50152" />
+                        <image-point name="Imagepoint 2" x="1" y="0.829787" />
+                        <image-point name="Imagepoint 3" x="1.00402" y="0.103343" />
+                        <image-point name="Imagepoint 4" x="0.502008" y="0.139818" />
+                        <image-point name="Imagepoint 5" x="0" y="0.139818" />
+                        <image-point name="Imagepoint 6" x="1" y="0.139818" />
+                        <image-point name="Imagepoint 7" x="0.843373" y="0.139818" />
+                        <image-point name="Imagepoint 8" x="0.674699" y="0.139818" />
+                        <image-point name="Imagepoint 9" x="0.168675" y="0.139818" />
+                        <image-point name="Imagepoint 10" x="0.341365" y="0.139818" />
                         <collision-poly>
-                            <point x="0.137931" y="0.141869" />
-                            <point x="0.876848" y="0.141869" />
-                            <point x="0.876848" y="1" />
-                            <point x="0.137931" y="1" />
+                            <point x="0.32267" y="0.254331" />
+                            <point x="0.680062" y="0.254331" />
+                            <point x="0.680062" y="1" />
+                            <point x="0.32267" y="1" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.502463" hotspotY="0.975779" original-source="D:\EdgardDeveloper\Construct\WanderingSoul\Assets\Player\Idle\Idle_02.png">
-                        <image-point name="Imagepoint 1" x="1" y="0.50173" />
-                        <image-point name="Imagepoint 2" x="1" y="0.83045" />
-                        <image-point name="Imagepoint 3" x="1.00493" y="0.103806" />
-                        <image-point name="Imagepoint 4" x="0.502463" y="0" />
-                        <image-point name="Imagepoint 5" x="0" y="0" />
-                        <image-point name="Imagepoint 6" x="1" y="0" />
-                        <image-point name="Imagepoint 7" x="0.842365" y="-0.00346021" />
-                        <image-point name="Imagepoint 8" x="0.674877" y="-0.00692042" />
-                        <image-point name="Imagepoint 9" x="0.167488" y="-0.00346021" />
-                        <image-point name="Imagepoint 10" x="0.339901" y="-0.00346021" />
+                    <frame duration="1" hotspotX="0.502008" hotspotY="0.993921" original-source="D:\EdgardDeveloper\shotopof\exportados\Wandering\Idle\Idle_02.png">
+                        <image-point name="Imagepoint 1" x="1" y="0.50152" />
+                        <image-point name="Imagepoint 2" x="1" y="0.829787" />
+                        <image-point name="Imagepoint 3" x="1.00402" y="0.103343" />
+                        <image-point name="Imagepoint 4" x="0.502008" y="0.139818" />
+                        <image-point name="Imagepoint 5" x="0" y="0.139818" />
+                        <image-point name="Imagepoint 6" x="1" y="0.139818" />
+                        <image-point name="Imagepoint 7" x="0.843373" y="0.139818" />
+                        <image-point name="Imagepoint 8" x="0.674699" y="0.139818" />
+                        <image-point name="Imagepoint 9" x="0.168675" y="0.139818" />
+                        <image-point name="Imagepoint 10" x="0.341365" y="0.139818" />
                         <collision-poly>
-                            <point x="0.137931" y="0.141869" />
-                            <point x="0.876848" y="0.141869" />
-                            <point x="0.876848" y="1" />
-                            <point x="0.137931" y="1" />
+                            <point x="0.32267" y="0.254331" />
+                            <point x="0.680062" y="0.254331" />
+                            <point x="0.680062" y="1" />
+                            <point x="0.32267" y="1" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.502463" hotspotY="0.975779" original-source="D:\EdgardDeveloper\Construct\WanderingSoul\Assets\Player\Idle\Idle_03.png">
-                        <image-point name="Imagepoint 1" x="1" y="0.50173" />
-                        <image-point name="Imagepoint 2" x="1" y="0.83045" />
-                        <image-point name="Imagepoint 3" x="1.00493" y="0.103806" />
-                        <image-point name="Imagepoint 4" x="0.502463" y="0" />
-                        <image-point name="Imagepoint 5" x="0" y="0" />
-                        <image-point name="Imagepoint 6" x="1" y="0" />
-                        <image-point name="Imagepoint 7" x="0.842365" y="-0.00346021" />
-                        <image-point name="Imagepoint 8" x="0.674877" y="-0.00692042" />
-                        <image-point name="Imagepoint 9" x="0.167488" y="-0.00346021" />
-                        <image-point name="Imagepoint 10" x="0.339901" y="-0.00346021" />
+                    <frame duration="1" hotspotX="0.506024" hotspotY="0.993921" original-source="D:\EdgardDeveloper\shotopof\exportados\Wandering\Idle\Idle_03.png">
+                        <image-point name="Imagepoint 1" x="1" y="0.50152" />
+                        <image-point name="Imagepoint 2" x="1" y="0.829787" />
+                        <image-point name="Imagepoint 3" x="1.00402" y="0.103343" />
+                        <image-point name="Imagepoint 4" x="0.502008" y="0.139818" />
+                        <image-point name="Imagepoint 5" x="0" y="0.139818" />
+                        <image-point name="Imagepoint 6" x="1" y="0.139818" />
+                        <image-point name="Imagepoint 7" x="0.843373" y="0.139818" />
+                        <image-point name="Imagepoint 8" x="0.674699" y="0.139818" />
+                        <image-point name="Imagepoint 9" x="0.168675" y="0.139818" />
+                        <image-point name="Imagepoint 10" x="0.341365" y="0.139818" />
                         <collision-poly>
-                            <point x="0.137931" y="0.141869" />
-                            <point x="0.876848" y="0.141869" />
-                            <point x="0.876848" y="1" />
-                            <point x="0.137931" y="1" />
+                            <point x="0.32267" y="0.254331" />
+                            <point x="0.680062" y="0.254331" />
+                            <point x="0.680062" y="1" />
+                            <point x="0.32267" y="1" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.502463" hotspotY="0.975779" original-source="D:\EdgardDeveloper\Construct\WanderingSoul\Assets\Player\Idle\Idle_04.png">
-                        <image-point name="Imagepoint 1" x="1" y="0.50173" />
-                        <image-point name="Imagepoint 2" x="1" y="0.83045" />
-                        <image-point name="Imagepoint 3" x="1.00493" y="0.103806" />
-                        <image-point name="Imagepoint 4" x="0.502463" y="0" />
-                        <image-point name="Imagepoint 5" x="0" y="0" />
-                        <image-point name="Imagepoint 6" x="1" y="0" />
-                        <image-point name="Imagepoint 7" x="0.842365" y="-0.00346021" />
-                        <image-point name="Imagepoint 8" x="0.674877" y="-0.00692042" />
-                        <image-point name="Imagepoint 9" x="0.167488" y="-0.00346021" />
-                        <image-point name="Imagepoint 10" x="0.339901" y="-0.00346021" />
+                    <frame duration="1" hotspotX="0.502008" hotspotY="0.993921" original-source="D:\EdgardDeveloper\shotopof\exportados\Wandering\Idle\Idle_04.png">
+                        <image-point name="Imagepoint 1" x="1" y="0.50152" />
+                        <image-point name="Imagepoint 2" x="1" y="0.829787" />
+                        <image-point name="Imagepoint 3" x="1.00402" y="0.103343" />
+                        <image-point name="Imagepoint 4" x="0.502008" y="0.139818" />
+                        <image-point name="Imagepoint 5" x="0" y="0.139818" />
+                        <image-point name="Imagepoint 6" x="1" y="0.139818" />
+                        <image-point name="Imagepoint 7" x="0.843373" y="0.139818" />
+                        <image-point name="Imagepoint 8" x="0.674699" y="0.139818" />
+                        <image-point name="Imagepoint 9" x="0.168675" y="0.139818" />
+                        <image-point name="Imagepoint 10" x="0.341365" y="0.139818" />
                         <collision-poly>
-                            <point x="0.137931" y="0.141869" />
-                            <point x="0.876848" y="0.141869" />
-                            <point x="0.876848" y="1" />
-                            <point x="0.137931" y="1" />
+                            <point x="0.32267" y="0.254331" />
+                            <point x="0.680062" y="0.254331" />
+                            <point x="0.680062" y="1" />
+                            <point x="0.32267" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.502008" hotspotY="0.993921" original-source="D:\EdgardDeveloper\shotopof\exportados\Wandering\Idle\Idle_05.png">
+                        <image-point name="Imagepoint 1" x="1" y="0.50152" />
+                        <image-point name="Imagepoint 2" x="1" y="0.829787" />
+                        <image-point name="Imagepoint 3" x="1.00402" y="0.103343" />
+                        <image-point name="Imagepoint 4" x="0.502008" y="0.139818" />
+                        <image-point name="Imagepoint 5" x="0" y="0.139818" />
+                        <image-point name="Imagepoint 6" x="1" y="0.139818" />
+                        <image-point name="Imagepoint 7" x="0.843373" y="0.139818" />
+                        <image-point name="Imagepoint 8" x="0.674699" y="0.139818" />
+                        <image-point name="Imagepoint 9" x="0.168675" y="0.139818" />
+                        <image-point name="Imagepoint 10" x="0.341365" y="0.139818" />
+                        <collision-poly>
+                            <point x="0.32267" y="0.254331" />
+                            <point x="0.680062" y="0.254331" />
+                            <point x="0.680062" y="1" />
+                            <point x="0.32267" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.506024" hotspotY="0.993921" original-source="D:\EdgardDeveloper\shotopof\exportados\Wandering\Idle\Idle_06.png">
+                        <image-point name="Imagepoint 1" x="1" y="0.50152" />
+                        <image-point name="Imagepoint 2" x="1" y="0.829787" />
+                        <image-point name="Imagepoint 3" x="1.00402" y="0.103343" />
+                        <image-point name="Imagepoint 4" x="0.502008" y="0.139818" />
+                        <image-point name="Imagepoint 5" x="0" y="0.139818" />
+                        <image-point name="Imagepoint 6" x="1" y="0.139818" />
+                        <image-point name="Imagepoint 7" x="0.843373" y="0.139818" />
+                        <image-point name="Imagepoint 8" x="0.674699" y="0.139818" />
+                        <image-point name="Imagepoint 9" x="0.168675" y="0.139818" />
+                        <image-point name="Imagepoint 10" x="0.341365" y="0.139818" />
+                        <collision-poly>
+                            <point x="0.32267" y="0.254331" />
+                            <point x="0.680062" y="0.254331" />
+                            <point x="0.680062" y="1" />
+                            <point x="0.32267" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.506024" hotspotY="0.993921" original-source="D:\EdgardDeveloper\shotopof\exportados\Wandering\Idle\Idle_07.png">
+                        <image-point name="Imagepoint 1" x="1" y="0.50152" />
+                        <image-point name="Imagepoint 2" x="1" y="0.829787" />
+                        <image-point name="Imagepoint 3" x="1.00402" y="0.103343" />
+                        <image-point name="Imagepoint 4" x="0.502008" y="0.139818" />
+                        <image-point name="Imagepoint 5" x="0" y="0.139818" />
+                        <image-point name="Imagepoint 6" x="1" y="0.139818" />
+                        <image-point name="Imagepoint 7" x="0.843373" y="0.139818" />
+                        <image-point name="Imagepoint 8" x="0.674699" y="0.139818" />
+                        <image-point name="Imagepoint 9" x="0.168675" y="0.139818" />
+                        <image-point name="Imagepoint 10" x="0.341365" y="0.139818" />
+                        <collision-poly>
+                            <point x="0.32267" y="0.254331" />
+                            <point x="0.680062" y="0.254331" />
+                            <point x="0.680062" y="1" />
+                            <point x="0.32267" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.506024" hotspotY="0.993921" original-source="D:\EdgardDeveloper\shotopof\exportados\Wandering\Idle\Idle_08.png">
+                        <image-point name="Imagepoint 1" x="1" y="0.50152" />
+                        <image-point name="Imagepoint 2" x="1" y="0.829787" />
+                        <image-point name="Imagepoint 3" x="1.00402" y="0.103343" />
+                        <image-point name="Imagepoint 4" x="0.502008" y="0.139818" />
+                        <image-point name="Imagepoint 5" x="0" y="0.139818" />
+                        <image-point name="Imagepoint 6" x="1" y="0.139818" />
+                        <image-point name="Imagepoint 7" x="0.843373" y="0.139818" />
+                        <image-point name="Imagepoint 8" x="0.674699" y="0.139818" />
+                        <image-point name="Imagepoint 9" x="0.168675" y="0.139818" />
+                        <image-point name="Imagepoint 10" x="0.341365" y="0.139818" />
+                        <collision-poly>
+                            <point x="0.32267" y="0.254331" />
+                            <point x="0.680062" y="0.254331" />
+                            <point x="0.680062" y="1" />
+                            <point x="0.32267" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.506024" hotspotY="0.993921" original-source="D:\EdgardDeveloper\shotopof\exportados\Wandering\Idle\Idle_09.png">
+                        <image-point name="Imagepoint 1" x="1" y="0.50152" />
+                        <image-point name="Imagepoint 2" x="1" y="0.829787" />
+                        <image-point name="Imagepoint 3" x="1.00402" y="0.103343" />
+                        <image-point name="Imagepoint 4" x="0.502008" y="0.139818" />
+                        <image-point name="Imagepoint 5" x="0" y="0.139818" />
+                        <image-point name="Imagepoint 6" x="1" y="0.139818" />
+                        <image-point name="Imagepoint 7" x="0.843373" y="0.139818" />
+                        <image-point name="Imagepoint 8" x="0.674699" y="0.139818" />
+                        <image-point name="Imagepoint 9" x="0.168675" y="0.139818" />
+                        <image-point name="Imagepoint 10" x="0.341365" y="0.139818" />
+                        <collision-poly>
+                            <point x="0.32267" y="0.254331" />
+                            <point x="0.680062" y="0.254331" />
+                            <point x="0.680062" y="1" />
+                            <point x="0.32267" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.506024" hotspotY="0.993921" original-source="D:\EdgardDeveloper\shotopof\exportados\Wandering\Idle\Idle_10.png">
+                        <image-point name="Imagepoint 1" x="1" y="0.50152" />
+                        <image-point name="Imagepoint 2" x="1" y="0.829787" />
+                        <image-point name="Imagepoint 3" x="1.00402" y="0.103343" />
+                        <image-point name="Imagepoint 4" x="0.502008" y="0.139818" />
+                        <image-point name="Imagepoint 5" x="0" y="0.139818" />
+                        <image-point name="Imagepoint 6" x="1" y="0.139818" />
+                        <image-point name="Imagepoint 7" x="0.843373" y="0.139818" />
+                        <image-point name="Imagepoint 8" x="0.674699" y="0.139818" />
+                        <image-point name="Imagepoint 9" x="0.168675" y="0.139818" />
+                        <image-point name="Imagepoint 10" x="0.341365" y="0.139818" />
+                        <collision-poly>
+                            <point x="0.32267" y="0.254331" />
+                            <point x="0.680062" y="0.254331" />
+                            <point x="0.680062" y="1" />
+                            <point x="0.32267" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.502008" hotspotY="0.993921" original-source="D:\EdgardDeveloper\shotopof\exportados\Wandering\Idle\Idle_11.png">
+                        <image-point name="Imagepoint 1" x="1" y="0.50152" />
+                        <image-point name="Imagepoint 2" x="1" y="0.829787" />
+                        <image-point name="Imagepoint 3" x="1.00402" y="0.103343" />
+                        <image-point name="Imagepoint 4" x="0.502008" y="0.139818" />
+                        <image-point name="Imagepoint 5" x="0" y="0.139818" />
+                        <image-point name="Imagepoint 6" x="1" y="0.139818" />
+                        <image-point name="Imagepoint 7" x="0.843373" y="0.139818" />
+                        <image-point name="Imagepoint 8" x="0.674699" y="0.139818" />
+                        <image-point name="Imagepoint 9" x="0.168675" y="0.139818" />
+                        <image-point name="Imagepoint 10" x="0.341365" y="0.139818" />
+                        <collision-poly>
+                            <point x="0.32267" y="0.254331" />
+                            <point x="0.680062" y="0.254331" />
+                            <point x="0.680062" y="1" />
+                            <point x="0.32267" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.506024" hotspotY="0.993921" original-source="D:\EdgardDeveloper\shotopof\exportados\Wandering\Idle\Idle_12.png">
+                        <image-point name="Imagepoint 1" x="1" y="0.50152" />
+                        <image-point name="Imagepoint 2" x="1" y="0.829787" />
+                        <image-point name="Imagepoint 3" x="1.00402" y="0.103343" />
+                        <image-point name="Imagepoint 4" x="0.502008" y="0.139818" />
+                        <image-point name="Imagepoint 5" x="0" y="0.139818" />
+                        <image-point name="Imagepoint 6" x="1" y="0.139818" />
+                        <image-point name="Imagepoint 7" x="0.843373" y="0.139818" />
+                        <image-point name="Imagepoint 8" x="0.674699" y="0.139818" />
+                        <image-point name="Imagepoint 9" x="0.168675" y="0.139818" />
+                        <image-point name="Imagepoint 10" x="0.341365" y="0.139818" />
+                        <collision-poly>
+                            <point x="0.32267" y="0.254331" />
+                            <point x="0.680062" y="0.254331" />
+                            <point x="0.680062" y="1" />
+                            <point x="0.32267" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.506024" hotspotY="0.993921" original-source="D:\EdgardDeveloper\shotopof\exportados\Wandering\Idle\Idle_13.png">
+                        <image-point name="Imagepoint 1" x="1" y="0.50152" />
+                        <image-point name="Imagepoint 2" x="1" y="0.829787" />
+                        <image-point name="Imagepoint 3" x="1.00402" y="0.103343" />
+                        <image-point name="Imagepoint 4" x="0.502008" y="0.139818" />
+                        <image-point name="Imagepoint 5" x="0" y="0.139818" />
+                        <image-point name="Imagepoint 6" x="1" y="0.139818" />
+                        <image-point name="Imagepoint 7" x="0.843373" y="0.139818" />
+                        <image-point name="Imagepoint 8" x="0.674699" y="0.139818" />
+                        <image-point name="Imagepoint 9" x="0.168675" y="0.139818" />
+                        <image-point name="Imagepoint 10" x="0.341365" y="0.139818" />
+                        <collision-poly>
+                            <point x="0.32267" y="0.254331" />
+                            <point x="0.680062" y="0.254331" />
+                            <point x="0.680062" y="1" />
+                            <point x="0.32267" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.506024" hotspotY="0.993921" original-source="D:\EdgardDeveloper\shotopof\exportados\Wandering\Idle\Idle_14.png">
+                        <image-point name="Imagepoint 1" x="1" y="0.50152" />
+                        <image-point name="Imagepoint 2" x="1" y="0.829787" />
+                        <image-point name="Imagepoint 3" x="1.00402" y="0.103343" />
+                        <image-point name="Imagepoint 4" x="0.502008" y="0.139818" />
+                        <image-point name="Imagepoint 5" x="0" y="0.139818" />
+                        <image-point name="Imagepoint 6" x="1" y="0.139818" />
+                        <image-point name="Imagepoint 7" x="0.843373" y="0.139818" />
+                        <image-point name="Imagepoint 8" x="0.674699" y="0.139818" />
+                        <image-point name="Imagepoint 9" x="0.168675" y="0.139818" />
+                        <image-point name="Imagepoint 10" x="0.341365" y="0.139818" />
+                        <collision-poly>
+                            <point x="0.32267" y="0.254331" />
+                            <point x="0.680062" y="0.254331" />
+                            <point x="0.680062" y="1" />
+                            <point x="0.32267" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.493976" hotspotY="0.993921" original-source="D:\EdgardDeveloper\shotopof\exportados\Wandering\Idle\Idle_15.png">
+                        <image-point name="Imagepoint 1" x="1" y="0.50152" />
+                        <image-point name="Imagepoint 2" x="1" y="0.829787" />
+                        <image-point name="Imagepoint 3" x="1.00402" y="0.103343" />
+                        <image-point name="Imagepoint 4" x="0.502008" y="0.139818" />
+                        <image-point name="Imagepoint 5" x="0" y="0.139818" />
+                        <image-point name="Imagepoint 6" x="1" y="0.139818" />
+                        <image-point name="Imagepoint 7" x="0.843373" y="0.139818" />
+                        <image-point name="Imagepoint 8" x="0.674699" y="0.139818" />
+                        <image-point name="Imagepoint 9" x="0.168675" y="0.139818" />
+                        <image-point name="Imagepoint 10" x="0.341365" y="0.139818" />
+                        <collision-poly>
+                            <point x="0.32267" y="0.254331" />
+                            <point x="0.680062" y="0.254331" />
+                            <point x="0.680062" y="1" />
+                            <point x="0.32267" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.497992" hotspotY="0.993921" original-source="D:\EdgardDeveloper\shotopof\exportados\Wandering\Idle\Idle_16.png">
+                        <image-point name="Imagepoint 1" x="1" y="0.50152" />
+                        <image-point name="Imagepoint 2" x="1" y="0.829787" />
+                        <image-point name="Imagepoint 3" x="1.00402" y="0.103343" />
+                        <image-point name="Imagepoint 4" x="0.502008" y="0.139818" />
+                        <image-point name="Imagepoint 5" x="0" y="0.139818" />
+                        <image-point name="Imagepoint 6" x="1" y="0.139818" />
+                        <image-point name="Imagepoint 7" x="0.843373" y="0.139818" />
+                        <image-point name="Imagepoint 8" x="0.674699" y="0.139818" />
+                        <image-point name="Imagepoint 9" x="0.168675" y="0.139818" />
+                        <image-point name="Imagepoint 10" x="0.341365" y="0.139818" />
+                        <collision-poly>
+                            <point x="0.32267" y="0.254331" />
+                            <point x="0.680062" y="0.254331" />
+                            <point x="0.680062" y="1" />
+                            <point x="0.32267" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.502008" hotspotY="0.993921" original-source="D:\EdgardDeveloper\shotopof\exportados\Wandering\Idle\Idle_17.png">
+                        <image-point name="Imagepoint 1" x="1" y="0.50152" />
+                        <image-point name="Imagepoint 2" x="1" y="0.829787" />
+                        <image-point name="Imagepoint 3" x="1.00402" y="0.103343" />
+                        <image-point name="Imagepoint 4" x="0.502008" y="0.139818" />
+                        <image-point name="Imagepoint 5" x="0" y="0.139818" />
+                        <image-point name="Imagepoint 6" x="1" y="0.139818" />
+                        <image-point name="Imagepoint 7" x="0.843373" y="0.139818" />
+                        <image-point name="Imagepoint 8" x="0.674699" y="0.139818" />
+                        <image-point name="Imagepoint 9" x="0.168675" y="0.139818" />
+                        <image-point name="Imagepoint 10" x="0.341365" y="0.139818" />
+                        <collision-poly>
+                            <point x="0.32267" y="0.254331" />
+                            <point x="0.680062" y="0.254331" />
+                            <point x="0.680062" y="1" />
+                            <point x="0.32267" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.502008" hotspotY="0.993921" original-source="D:\EdgardDeveloper\shotopof\exportados\Wandering\Idle\Idle_18.png">
+                        <image-point name="Imagepoint 1" x="1" y="0.50152" />
+                        <image-point name="Imagepoint 2" x="1" y="0.829787" />
+                        <image-point name="Imagepoint 3" x="1.00402" y="0.103343" />
+                        <image-point name="Imagepoint 4" x="0.502008" y="0.139818" />
+                        <image-point name="Imagepoint 5" x="0" y="0.139818" />
+                        <image-point name="Imagepoint 6" x="1" y="0.139818" />
+                        <image-point name="Imagepoint 7" x="0.843373" y="0.139818" />
+                        <image-point name="Imagepoint 8" x="0.674699" y="0.139818" />
+                        <image-point name="Imagepoint 9" x="0.168675" y="0.139818" />
+                        <image-point name="Imagepoint 10" x="0.341365" y="0.139818" />
+                        <collision-poly>
+                            <point x="0.32267" y="0.254331" />
+                            <point x="0.680062" y="0.254331" />
+                            <point x="0.680062" y="1" />
+                            <point x="0.32267" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.502008" hotspotY="0.993921" original-source="D:\EdgardDeveloper\shotopof\exportados\Wandering\Idle\Idle_19.png">
+                        <image-point name="Imagepoint 1" x="1" y="0.50152" />
+                        <image-point name="Imagepoint 2" x="1" y="0.829787" />
+                        <image-point name="Imagepoint 3" x="1.00402" y="0.103343" />
+                        <image-point name="Imagepoint 4" x="0.502008" y="0.139818" />
+                        <image-point name="Imagepoint 5" x="0" y="0.139818" />
+                        <image-point name="Imagepoint 6" x="1" y="0.139818" />
+                        <image-point name="Imagepoint 7" x="0.843373" y="0.139818" />
+                        <image-point name="Imagepoint 8" x="0.674699" y="0.139818" />
+                        <image-point name="Imagepoint 9" x="0.168675" y="0.139818" />
+                        <image-point name="Imagepoint 10" x="0.341365" y="0.139818" />
+                        <collision-poly>
+                            <point x="0.32267" y="0.254331" />
+                            <point x="0.680062" y="0.254331" />
+                            <point x="0.680062" y="1" />
+                            <point x="0.32267" y="1" />
                         </collision-poly>
                     </frame>
                 </animation>
-                <animation framecount="3" loop="0" name="Correr" pingpong="0" repeatcount="1" repeatto="0" sid="934293893703238" speed="10">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.964744" original-source="D:\EdgardDeveloper\Construct\WanderingSoul\Assets\Player\run\Run_01.png">
-                        <image-point name="Imagepoint 1" x="1" y="0.503205" />
-                        <image-point name="Imagepoint 2" x="1" y="0.830128" />
-                        <image-point name="Imagepoint 3" x="1.00629" y="0.102564" />
-                        <image-point name="Imagepoint 4" x="0.503145" y="0" />
+                <animation framecount="10" loop="1" name="Correr" pingpong="0" repeatcount="1" repeatto="0" sid="934293893703238" speed="16">
+                    <frame duration="1" hotspotX="0.547461" hotspotY="0.876289" original-source="D:\EdgardDeveloper\shotopof\exportados\Wandering\Run\Run\Run_01.png">
+                        <image-point name="Imagepoint 1" x="1" y="0.502577" />
+                        <image-point name="Imagepoint 2" x="1" y="0.829897" />
+                        <image-point name="Imagepoint 3" x="1.00662" y="0.103093" />
+                        <image-point name="Imagepoint 4" x="0.503311" y="0" />
                         <image-point name="Imagepoint 5" x="0" y="0" />
                         <image-point name="Imagepoint 6" x="1" y="0" />
-                        <image-point name="Imagepoint 7" x="0.842767" y="-0.00320513" />
-                        <image-point name="Imagepoint 8" x="0.676101" y="-0.00641026" />
-                        <image-point name="Imagepoint 9" x="0.166667" y="-0.00320513" />
-                        <image-point name="Imagepoint 10" x="0.339623" y="-0.00320513" />
+                        <image-point name="Imagepoint 7" x="0.843267" y="-0.00257732" />
+                        <image-point name="Imagepoint 8" x="0.675497" y="-0.00515464" />
+                        <image-point name="Imagepoint 9" x="0.16777" y="-0.00257732" />
+                        <image-point name="Imagepoint 10" x="0.339956" y="-0.00257732" />
                         <collision-poly>
-                            <point x="0.194968" y="0.227564" />
-                            <point x="0.80503" y="0.227564" />
-                            <point x="0.80503" y="0.977564" />
-                            <point x="0.194968" y="0.977564" />
+                            <point x="0.484152" y="0.219072" />
+                            <point x="0.675497" y="0.219072" />
+                            <point x="0.675497" y="0.876289" />
+                            <point x="0.484152" y="0.876289" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.964744" original-source="D:\EdgardDeveloper\Construct\WanderingSoul\Assets\Player\run\Run_02.png">
-                        <image-point name="Imagepoint 1" x="1" y="0.503205" />
-                        <image-point name="Imagepoint 2" x="1" y="0.830128" />
-                        <image-point name="Imagepoint 3" x="1.00629" y="0.102564" />
-                        <image-point name="Imagepoint 4" x="0.503145" y="0" />
+                    <frame duration="1" hotspotX="0.547461" hotspotY="0.876289" original-source="D:\EdgardDeveloper\shotopof\exportados\Wandering\Run\Run\Run_02.png">
+                        <image-point name="Imagepoint 1" x="1" y="0.502577" />
+                        <image-point name="Imagepoint 2" x="1" y="0.829897" />
+                        <image-point name="Imagepoint 3" x="1.00662" y="0.103093" />
+                        <image-point name="Imagepoint 4" x="0.503311" y="0" />
                         <image-point name="Imagepoint 5" x="0" y="0" />
                         <image-point name="Imagepoint 6" x="1" y="0" />
-                        <image-point name="Imagepoint 7" x="0.842767" y="-0.00320513" />
-                        <image-point name="Imagepoint 8" x="0.676101" y="-0.00641026" />
-                        <image-point name="Imagepoint 9" x="0.166667" y="-0.00320513" />
-                        <image-point name="Imagepoint 10" x="0.339623" y="-0.00320513" />
+                        <image-point name="Imagepoint 7" x="0.843267" y="-0.00257732" />
+                        <image-point name="Imagepoint 8" x="0.675497" y="-0.00515464" />
+                        <image-point name="Imagepoint 9" x="0.16777" y="-0.00257732" />
+                        <image-point name="Imagepoint 10" x="0.339956" y="-0.00257732" />
                         <collision-poly>
-                            <point x="0.194968" y="0.227564" />
-                            <point x="0.80503" y="0.227564" />
-                            <point x="0.80503" y="0.977564" />
-                            <point x="0.194968" y="0.977564" />
+                            <point x="0.484152" y="0.219072" />
+                            <point x="0.675497" y="0.219072" />
+                            <point x="0.675497" y="0.876289" />
+                            <point x="0.484152" y="0.876289" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.964744" original-source="D:\EdgardDeveloper\Construct\WanderingSoul\Assets\Player\run\Run_03.png">
-                        <image-point name="Imagepoint 1" x="1" y="0.503205" />
-                        <image-point name="Imagepoint 2" x="1" y="0.830128" />
-                        <image-point name="Imagepoint 3" x="1.00629" y="0.102564" />
-                        <image-point name="Imagepoint 4" x="0.503145" y="0" />
+                    <frame duration="1" hotspotX="0.547461" hotspotY="0.876289" original-source="D:\EdgardDeveloper\shotopof\exportados\Wandering\Run\Run\Run_03.png">
+                        <image-point name="Imagepoint 1" x="1" y="0.502577" />
+                        <image-point name="Imagepoint 2" x="1" y="0.829897" />
+                        <image-point name="Imagepoint 3" x="1.00662" y="0.103093" />
+                        <image-point name="Imagepoint 4" x="0.503311" y="0" />
                         <image-point name="Imagepoint 5" x="0" y="0" />
                         <image-point name="Imagepoint 6" x="1" y="0" />
-                        <image-point name="Imagepoint 7" x="0.842767" y="-0.00320513" />
-                        <image-point name="Imagepoint 8" x="0.676101" y="-0.00641026" />
-                        <image-point name="Imagepoint 9" x="0.166667" y="-0.00320513" />
-                        <image-point name="Imagepoint 10" x="0.339623" y="-0.00320513" />
+                        <image-point name="Imagepoint 7" x="0.843267" y="-0.00257732" />
+                        <image-point name="Imagepoint 8" x="0.675497" y="-0.00515464" />
+                        <image-point name="Imagepoint 9" x="0.16777" y="-0.00257732" />
+                        <image-point name="Imagepoint 10" x="0.339956" y="-0.00257732" />
                         <collision-poly>
-                            <point x="0.194968" y="0.227564" />
-                            <point x="0.80503" y="0.227564" />
-                            <point x="0.80503" y="0.977564" />
-                            <point x="0.194968" y="0.977564" />
+                            <point x="0.484152" y="0.219072" />
+                            <point x="0.675497" y="0.219072" />
+                            <point x="0.675497" y="0.876289" />
+                            <point x="0.484152" y="0.876289" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.547461" hotspotY="0.876289" original-source="D:\EdgardDeveloper\shotopof\exportados\Wandering\Run\Run\Run_04.png">
+                        <image-point name="Imagepoint 1" x="1" y="0.502577" />
+                        <image-point name="Imagepoint 2" x="1" y="0.829897" />
+                        <image-point name="Imagepoint 3" x="1.00662" y="0.103093" />
+                        <image-point name="Imagepoint 4" x="0.503311" y="0" />
+                        <image-point name="Imagepoint 5" x="0" y="0" />
+                        <image-point name="Imagepoint 6" x="1" y="0" />
+                        <image-point name="Imagepoint 7" x="0.843267" y="-0.00257732" />
+                        <image-point name="Imagepoint 8" x="0.675497" y="-0.00515464" />
+                        <image-point name="Imagepoint 9" x="0.16777" y="-0.00257732" />
+                        <image-point name="Imagepoint 10" x="0.339956" y="-0.00257732" />
+                        <collision-poly>
+                            <point x="0.484152" y="0.219072" />
+                            <point x="0.675497" y="0.219072" />
+                            <point x="0.675497" y="0.876289" />
+                            <point x="0.484152" y="0.876289" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.547461" hotspotY="0.876289" original-source="D:\EdgardDeveloper\shotopof\exportados\Wandering\Run\Run\Run_05.png">
+                        <image-point name="Imagepoint 1" x="1" y="0.502577" />
+                        <image-point name="Imagepoint 2" x="1" y="0.829897" />
+                        <image-point name="Imagepoint 3" x="1.00662" y="0.103093" />
+                        <image-point name="Imagepoint 4" x="0.503311" y="0" />
+                        <image-point name="Imagepoint 5" x="0" y="0" />
+                        <image-point name="Imagepoint 6" x="1" y="0" />
+                        <image-point name="Imagepoint 7" x="0.843267" y="-0.00257732" />
+                        <image-point name="Imagepoint 8" x="0.675497" y="-0.00515464" />
+                        <image-point name="Imagepoint 9" x="0.16777" y="-0.00257732" />
+                        <image-point name="Imagepoint 10" x="0.339956" y="-0.00257732" />
+                        <collision-poly>
+                            <point x="0.484152" y="0.219072" />
+                            <point x="0.675497" y="0.219072" />
+                            <point x="0.675497" y="0.876289" />
+                            <point x="0.484152" y="0.876289" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.547461" hotspotY="0.876289" original-source="D:\EdgardDeveloper\shotopof\exportados\Wandering\Run\Run\Run_06.png">
+                        <image-point name="Imagepoint 1" x="1" y="0.502577" />
+                        <image-point name="Imagepoint 2" x="1" y="0.829897" />
+                        <image-point name="Imagepoint 3" x="1.00662" y="0.103093" />
+                        <image-point name="Imagepoint 4" x="0.503311" y="0" />
+                        <image-point name="Imagepoint 5" x="0" y="0" />
+                        <image-point name="Imagepoint 6" x="1" y="0" />
+                        <image-point name="Imagepoint 7" x="0.843267" y="-0.00257732" />
+                        <image-point name="Imagepoint 8" x="0.675497" y="-0.00515464" />
+                        <image-point name="Imagepoint 9" x="0.16777" y="-0.00257732" />
+                        <image-point name="Imagepoint 10" x="0.339956" y="-0.00257732" />
+                        <collision-poly>
+                            <point x="0.484152" y="0.219072" />
+                            <point x="0.675497" y="0.219072" />
+                            <point x="0.675497" y="0.876289" />
+                            <point x="0.484152" y="0.876289" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.547461" hotspotY="0.876289" original-source="D:\EdgardDeveloper\shotopof\exportados\Wandering\Run\Run\Run_07.png">
+                        <image-point name="Imagepoint 1" x="1" y="0.502577" />
+                        <image-point name="Imagepoint 2" x="1" y="0.829897" />
+                        <image-point name="Imagepoint 3" x="1.00662" y="0.103093" />
+                        <image-point name="Imagepoint 4" x="0.503311" y="0" />
+                        <image-point name="Imagepoint 5" x="0" y="0" />
+                        <image-point name="Imagepoint 6" x="1" y="0" />
+                        <image-point name="Imagepoint 7" x="0.843267" y="-0.00257732" />
+                        <image-point name="Imagepoint 8" x="0.675497" y="-0.00515464" />
+                        <image-point name="Imagepoint 9" x="0.16777" y="-0.00257732" />
+                        <image-point name="Imagepoint 10" x="0.339956" y="-0.00257732" />
+                        <collision-poly>
+                            <point x="0.484152" y="0.219072" />
+                            <point x="0.675497" y="0.219072" />
+                            <point x="0.675497" y="0.876289" />
+                            <point x="0.484152" y="0.876289" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.547461" hotspotY="0.876289" original-source="D:\EdgardDeveloper\shotopof\exportados\Wandering\Run\Run\Run_08.png">
+                        <image-point name="Imagepoint 1" x="1" y="0.502577" />
+                        <image-point name="Imagepoint 2" x="1" y="0.829897" />
+                        <image-point name="Imagepoint 3" x="1.00662" y="0.103093" />
+                        <image-point name="Imagepoint 4" x="0.503311" y="0" />
+                        <image-point name="Imagepoint 5" x="0" y="0" />
+                        <image-point name="Imagepoint 6" x="1" y="0" />
+                        <image-point name="Imagepoint 7" x="0.843267" y="-0.00257732" />
+                        <image-point name="Imagepoint 8" x="0.675497" y="-0.00515464" />
+                        <image-point name="Imagepoint 9" x="0.16777" y="-0.00257732" />
+                        <image-point name="Imagepoint 10" x="0.339956" y="-0.00257732" />
+                        <collision-poly>
+                            <point x="0.484152" y="0.219072" />
+                            <point x="0.675497" y="0.219072" />
+                            <point x="0.675497" y="0.876289" />
+                            <point x="0.484152" y="0.876289" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.547461" hotspotY="0.876289" original-source="D:\EdgardDeveloper\shotopof\exportados\Wandering\Run\Run\Run_09.png">
+                        <image-point name="Imagepoint 1" x="1" y="0.502577" />
+                        <image-point name="Imagepoint 2" x="1" y="0.829897" />
+                        <image-point name="Imagepoint 3" x="1.00662" y="0.103093" />
+                        <image-point name="Imagepoint 4" x="0.503311" y="0" />
+                        <image-point name="Imagepoint 5" x="0" y="0" />
+                        <image-point name="Imagepoint 6" x="1" y="0" />
+                        <image-point name="Imagepoint 7" x="0.843267" y="-0.00257732" />
+                        <image-point name="Imagepoint 8" x="0.675497" y="-0.00515464" />
+                        <image-point name="Imagepoint 9" x="0.16777" y="-0.00257732" />
+                        <image-point name="Imagepoint 10" x="0.339956" y="-0.00257732" />
+                        <collision-poly>
+                            <point x="0.484152" y="0.219072" />
+                            <point x="0.675497" y="0.219072" />
+                            <point x="0.675497" y="0.876289" />
+                            <point x="0.484152" y="0.876289" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.547461" hotspotY="0.876289" original-source="D:\EdgardDeveloper\shotopof\exportados\Wandering\Run\Run\Run_10.png">
+                        <image-point name="Imagepoint 1" x="1" y="0.502577" />
+                        <image-point name="Imagepoint 2" x="1" y="0.829897" />
+                        <image-point name="Imagepoint 3" x="1.00662" y="0.103093" />
+                        <image-point name="Imagepoint 4" x="0.503311" y="0" />
+                        <image-point name="Imagepoint 5" x="0" y="0" />
+                        <image-point name="Imagepoint 6" x="1" y="0" />
+                        <image-point name="Imagepoint 7" x="0.843267" y="-0.00257732" />
+                        <image-point name="Imagepoint 8" x="0.675497" y="-0.00515464" />
+                        <image-point name="Imagepoint 9" x="0.16777" y="-0.00257732" />
+                        <image-point name="Imagepoint 10" x="0.339956" y="-0.00257732" />
+                        <collision-poly>
+                            <point x="0.484152" y="0.219072" />
+                            <point x="0.675497" y="0.219072" />
+                            <point x="0.675497" y="0.876289" />
+                            <point x="0.484152" y="0.876289" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="5" loop="1" name="Attack_R" pingpong="0" repeatcount="1" repeatto="0" sid="279740207957050" speed="16">
+                    <frame duration="3" hotspotX="0.179245" hotspotY="0.935606" original-source="D:\EdgardDeveloper\shotopof\exportados\Wandering\Attack\attack_01.png">
+                        <collision-poly>
+                            <point x="0.235849" y="0.537879" />
+                            <point x="0.231132" y="0.935606" />
+                            <point x="0.135849" y="0.935606" />
+                            <point x="0.133962" y="0.539773" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="2" hotspotX="0.179245" hotspotY="0.935606" original-source="D:\EdgardDeveloper\shotopof\exportados\Wandering\Attack\attack_02.png">
+                        <collision-poly>
+                            <point x="0.235849" y="0.537879" />
+                            <point x="0.231132" y="0.935606" />
+                            <point x="0.135849" y="0.935606" />
+                            <point x="0.133962" y="0.539773" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.179245" hotspotY="0.935606" original-source="D:\EdgardDeveloper\shotopof\exportados\Wandering\Attack\attack_03.png">
+                        <collision-poly>
+                            <point x="0.235849" y="0.537879" />
+                            <point x="0.231132" y="0.935606" />
+                            <point x="0.135849" y="0.935606" />
+                            <point x="0.133962" y="0.539773" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.179245" hotspotY="0.935606" original-source="D:\EdgardDeveloper\shotopof\exportados\Wandering\Attack\attack_04.png">
+                        <collision-poly>
+                            <point x="0.235849" y="0.537879" />
+                            <point x="0.231132" y="0.935606" />
+                            <point x="0.135849" y="0.935606" />
+                            <point x="0.133962" y="0.539773" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="2" hotspotX="0.179245" hotspotY="0.935606" original-source="D:\EdgardDeveloper\shotopof\exportados\Wandering\Attack\attack_05.png">
+                        <collision-poly>
+                            <point x="0.235849" y="0.537879" />
+                            <point x="0.231132" y="0.935606" />
+                            <point x="0.135849" y="0.935606" />
+                            <point x="0.133962" y="0.539773" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="5" loop="0" name="Attack_Up" pingpong="0" repeatcount="1" repeatto="0" sid="984564308009358" speed="16">
+                    <frame duration="2" hotspotX="0.453682" hotspotY="0.969014" original-source="D:\EdgardDeveloper\shotopof\exportados\Wandering\Attack\Up_Attack_01.png">
+                        <collision-poly>
+                            <point x="0.36342" y="0.735211" />
+                            <point x="0.553444" y="0.735211" />
+                            <point x="0.551069" y="0.969953" />
+                            <point x="0.359858" y="0.969954" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="2" hotspotX="0.453682" hotspotY="0.969014" original-source="D:\EdgardDeveloper\shotopof\exportados\Wandering\Attack\Up_Attack_02.png">
+                        <collision-poly>
+                            <point x="0.36342" y="0.735211" />
+                            <point x="0.553444" y="0.735211" />
+                            <point x="0.551069" y="0.969953" />
+                            <point x="0.359858" y="0.969954" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="2" hotspotX="0.453682" hotspotY="0.969014" original-source="D:\EdgardDeveloper\shotopof\exportados\Wandering\Attack\Up_Attack_03.png">
+                        <collision-poly>
+                            <point x="0.36342" y="0.735211" />
+                            <point x="0.553444" y="0.735211" />
+                            <point x="0.551069" y="0.969953" />
+                            <point x="0.359858" y="0.969954" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.527316" hotspotY="0.989671" original-source="D:\EdgardDeveloper\shotopof\exportados\Wandering\Attack\Up_Attack_04.png">
+                        <collision-poly>
+                            <point x="0.36342" y="0.735211" />
+                            <point x="0.553444" y="0.735211" />
+                            <point x="0.551069" y="0.969953" />
+                            <point x="0.359858" y="0.969954" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="2" hotspotX="0.527316" hotspotY="0.991549" original-source="D:\EdgardDeveloper\shotopof\exportados\Wandering\Attack\Up_Attack_05.png">
+                        <collision-poly>
+                            <point x="0.36342" y="0.735211" />
+                            <point x="0.553444" y="0.735211" />
+                            <point x="0.551069" y="0.969953" />
+                            <point x="0.359858" y="0.969954" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="5" loop="1" name="Attack_D" pingpong="0" repeatcount="1" repeatto="0" sid="973097682727632" speed="18">
+                    <frame duration="3" hotspotX="0.457965" hotspotY="0.452582" original-source="D:\EdgardDeveloper\shotopof\exportados\Wandering\Attack\Down_attack_01.png">
+                        <collision-poly>
+                            <point x="0.396018" y="0.458216" />
+                            <point x="0.396018" y="0.226291" />
+                            <point x="0.55531" y="0.225352" />
+                            <point x="0.55531" y="0.458216" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="2" hotspotX="0.5" hotspotY="0.50047" original-source="D:\EdgardDeveloper\shotopof\exportados\Wandering\Attack\Down_attack_02.png">
+                        <collision-poly>
+                            <point x="0.396018" y="0.458216" />
+                            <point x="0.396018" y="0.226291" />
+                            <point x="0.55531" y="0.225352" />
+                            <point x="0.55531" y="0.458216" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="2" hotspotX="0.5" hotspotY="0.50047" original-source="D:\EdgardDeveloper\shotopof\exportados\Wandering\Attack\Down_attack_03.png">
+                        <collision-poly>
+                            <point x="0.449115" y="0.415023" />
+                            <point x="0.449115" y="0.183099" />
+                            <point x="0.608408" y="0.18216" />
+                            <point x="0.608407" y="0.415023" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50047" original-source="D:\EdgardDeveloper\shotopof\exportados\Wandering\Attack\Down_attack_04.png">
+                        <collision-poly>
+                            <point x="0.396018" y="0.351172" />
+                            <point x="0.396018" y="0.119249" />
+                            <point x="0.55531" y="0.11831" />
+                            <point x="0.55531" y="0.351172" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="2" hotspotX="0.5" hotspotY="0.50047" original-source="D:\EdgardDeveloper\shotopof\exportados\Wandering\Attack\Down_attack_05.png">
+                        <collision-poly>
+                            <point x="0.396018" y="0.327697" />
+                            <point x="0.396018" y="0.0957747" />
+                            <point x="0.55531" y="0.0948357" />
+                            <point x="0.55531" y="0.327697" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="3" loop="0" name="Jump" pingpong="0" repeatcount="1" repeatto="0" sid="344271449046617" speed="8">
+                    <frame duration="1" hotspotX="0.53168" hotspotY="0.939394" original-source="D:\EdgardDeveloper\shotopof\exportados\Wandering\Jump\Jump_01.png">
+                        <collision-poly>
+                            <point x="0.402203" y="0.49053" />
+                            <point x="0.652894" y="0.49053" />
+                            <point x="0.652894" y="0.945076" />
+                            <point x="0.402203" y="0.945076" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.53168" hotspotY="0.939394" original-source="D:\EdgardDeveloper\shotopof\exportados\Wandering\Jump\Jump_02.png">
+                        <collision-poly>
+                            <point x="0.402203" y="0.49053" />
+                            <point x="0.652894" y="0.49053" />
+                            <point x="0.652894" y="0.945076" />
+                            <point x="0.402203" y="0.945076" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.53168" hotspotY="0.939394" original-source="D:\EdgardDeveloper\shotopof\exportados\Wandering\Jump\Jump_03.png">
+                        <collision-poly>
+                            <point x="0.402203" y="0.49053" />
+                            <point x="0.652894" y="0.49053" />
+                            <point x="0.652894" y="0.945076" />
+                            <point x="0.402203" y="0.945076" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Falling" pingpong="0" repeatcount="1" repeatto="0" sid="313703857468837" speed="5">
+                    <frame duration="1" hotspotX="0.503778" hotspotY="0.908642" original-source="D:\EdgardDeveloper\shotopof\exportados\Wandering\Attack\Down_attack_01.png">
+                        <collision-poly>
+                            <point x="0.36272" y="0.251852" />
+                            <point x="0.63728" y="0.251852" />
+                            <point x="0.63728" y="0.923457" />
+                            <point x="0.36272" y="0.923457" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Jumping" pingpong="0" repeatcount="1" repeatto="0" sid="711583373807574" speed="5">
+                    <frame duration="1" hotspotX="0.509642" hotspotY="0.9375" original-source="D:\EdgardDeveloper\shotopof\exportados\Wandering\Jump\Jump_03.png">
+                        <collision-poly>
+                            <point x="0.413223" y="0.484848" />
+                            <point x="0.663912" y="0.488636" />
+                            <point x="0.636364" y="0.935606" />
+                            <point x="0.402204" y="0.935606" />
                         </collision-poly>
                     </frame>
                 </animation>
