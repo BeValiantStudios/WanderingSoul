@@ -131,6 +131,10 @@
                         <action behavior="Platform" id="9" name="Set vector Y" sid="398039911733313" type="Player">
                             <param id="0" name="Vector Y">-600</param>
                         </action>
+                        <action id="-12" name="Subtract from" sid="494697174943553" type="Player">
+                            <param id="0" name="Instance variable">Aleteos</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
                     </actions>
                 </event-block>
             </sub-events>
@@ -484,6 +488,14 @@
                             <param id="1" name="State">1</param>
                         </action>
                         <action id="-9" name="Destroy" sid="891877524307024" type="IndicadorAbsorber" />
+                        <action id="-11" name="Add to" sid="857536292881127" type="Player">
+                            <param id="0" name="Instance variable">Aleteos</param>
+                            <param id="1" name="Value">3</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="530572751812130" type="Player">
+                            <param id="0" name="Instance variable">ActivacionAlas</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="263458376734575">
@@ -508,6 +520,7 @@
                             <param id="1" name="State">1</param>
                         </action>
                         <action id="-9" name="Destroy" sid="299669286205696" type="IndicadorAbsorber" />
+                        <action id="-9" name="Destroy" sid="533778997602533" type="Volador" />
                     </actions>
                 </event-block>
                 <event-block sid="732009038983335">
@@ -748,6 +761,12 @@
                         <action id="7" name="Set mirrored" sid="428798383955649" type="BasicAttacks">
                             <param id="0" name="State">1</param>
                         </action>
+                        <action id="7" name="Set mirrored" sid="266715075907589" type="FuegoAliado">
+                            <param id="0" name="State">1</param>
+                        </action>
+                        <action behavior="Bullet" id="0" name="Set speed" sid="748900240559966" type="FuegoAliado">
+                            <param id="0" name="Speed">1000</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="847017266612852">
@@ -764,6 +783,15 @@
                         </action>
                         <action id="7" name="Set mirrored" sid="390541900547579" type="BasicAttacks">
                             <param id="0" name="State">0</param>
+                        </action>
+                        <action id="7" name="Set mirrored" sid="816497759018020" type="FuegoAliado">
+                            <param id="0" name="State">0</param>
+                        </action>
+                        <action behavior="Bullet" id="0" name="Set speed" sid="558482296882748" type="FuegoAliado">
+                            <param id="0" name="Speed">-1000</param>
+                        </action>
+                        <action behavior="Bullet" id="1" name="Set acceleration" sid="548638603842223" type="FuegoAliado">
+                            <param id="0" name="Acceleration">-1000</param>
                         </action>
                     </actions>
                 </event-block>
@@ -1158,5 +1186,80 @@
                 </event-block>
             </sub-events>
         </event-group>
+        <event-block sid="849472340403632">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="261607109149287" type="Player">
+                    <param id="0" name="Instance variable">Aleteos</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-12" name="Set group active" sid="341317047394180" type="System">
+                    <param id="0" name="Group name">&quot;Alas&quot;</param>
+                    <param id="1" name="State">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="996502303352802">
+            <conditions>
+                <condition behavior="Platform" id="2" name="Is on floor" sid="364934214101926" type="Player" />
+                <condition id="-7" name="Compare instance variable" sid="565535068415222" type="Player">
+                    <param id="0" name="Instance variable">ActivacionAlas</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-12" name="Set group active" sid="597118546384890" type="System">
+                    <param id="0" name="Group name">&quot;Alas&quot;</param>
+                    <param id="1" name="State">1</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="573259955617357">
+                    <conditions>
+                        <condition id="-4" name="Trigger once while true" sid="824626252619780" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-11" name="Add to" sid="110783750881723" type="Player">
+                            <param id="0" name="Instance variable">Aleteos</param>
+                            <param id="1" name="Value">3</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="734136508670751">
+            <conditions>
+                <condition behavior="Platform" id="2" name="Is on floor" sid="402960224929677" type="Player" />
+                <condition id="-7" name="Compare instance variable" sid="397803996214910" type="Player">
+                    <param id="0" name="Instance variable">Aleteos</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Set value" sid="231279262137321" type="Player">
+                    <param id="0" name="Instance variable">ActivacionAlas</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="495523209517067">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="396464198550415" type="Player">
+                    <param id="0" name="Instance variable">Aleteos</param>
+                    <param id="1" name="Comparison">5</param>
+                    <param id="2" name="Value">3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Set value" sid="329031530151863" type="Player">
+                    <param id="0" name="Instance variable">Aleteos</param>
+                    <param id="1" name="Value">3</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

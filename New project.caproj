@@ -165,6 +165,8 @@
                 <instance-variable name="DashActive" sid="325471086407645" type="boolean" />
                 <instance-variable name="DashSpeed" sid="400335363903491" type="number" />
                 <instance-variable name="Dashtime" sid="525373529217261" type="number" />
+                <instance-variable name="Aleteos" sid="657127056803713" type="number" />
+                <instance-variable name="ActivacionAlas" sid="415068478371491" type="number" />
             </instance-variables>
             <behaviors>
                 <behavior-type name="Platform" sid="319694107052990">
