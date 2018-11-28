@@ -730,7 +730,7 @@
                 <action id="-28" name="Set effect parameter" sid="226554504999248" type="Player">
                     <param id="0" name="Effect">&quot;Tint&quot;</param>
                     <param id="1" name="Parameter index">2</param>
-                    <param id="2" name="Value">Player.Vida +20</param>
+                    <param id="2" name="Value">Player.Vida +25</param>
                 </action>
             </actions>
         </event-block>
@@ -853,6 +853,106 @@
                 <action id="4" name="Set animation" sid="884521985954435" type="Player">
                     <param id="0" name="Animation">&quot;Default&quot;</param>
                     <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="230815525784169">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="864390128344679" type="EnemigoTortuga">
+                    <param id="0" name="Instance variable">Direccion</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="7" name="Simulate control" sid="830271916015702" type="EnemigoTortuga">
+                    <param id="0" name="Control">1</param>
+                </action>
+                <action id="7" name="Set mirrored" sid="210285935548702" type="EnemigoTortuga">
+                    <param id="0" name="State">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="399121808593101">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="699058239385058" type="EnemigoTortuga">
+                    <param id="0" name="Instance variable">Direccion</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="7" name="Simulate control" sid="232363853961502" type="EnemigoTortuga">
+                    <param id="0" name="Control">0</param>
+                </action>
+                <action id="7" name="Set mirrored" sid="994716857927525" type="EnemigoTortuga">
+                    <param id="0" name="State">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="128220182448853">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="164240288408123" type="EnemigoTortuga">
+                    <param id="0" name="Object">colision</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Set value" sid="854566879292026" type="EnemigoTortuga">
+                    <param id="0" name="Instance variable">Direccion</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action behavior="Platform" id="7" name="Simulate control" sid="497453561940097" type="EnemigoTortuga">
+                    <param id="0" name="Control">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="271975926481050">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="385334252860753" type="EnemigoTortuga">
+                    <param id="0" name="Object">colision2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Set value" sid="741971205031878" type="EnemigoTortuga">
+                    <param id="0" name="Instance variable">Direccion</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action behavior="Platform" id="7" name="Simulate control" sid="271932141117150" type="EnemigoTortuga">
+                    <param id="0" name="Control">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="853529229787269">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="860773534159613" type="EnemigoTortuga">
+                    <param id="0" name="Object">BasicAttacks</param>
+                </condition>
+                <condition id="-8" name="Compare two values" sid="362328584234548" type="System">
+                    <param id="0" name="First value">EnemigoBasico.X-Player.X</param>
+                    <param id="1" name="Comparison">3</param>
+                    <param id="2" name="Second value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="8" name="Set vector X" sid="767314706442744" type="EnemigoTortuga">
+                    <param id="0" name="Vector X">-50000</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="158377790866937">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="589264640183438" type="EnemigoTortuga">
+                    <param id="0" name="Object">BasicAttacks</param>
+                </condition>
+                <condition id="-8" name="Compare two values" sid="766844543950873" type="System">
+                    <param id="0" name="First value">EnemigoBasico.X-Player.X</param>
+                    <param id="1" name="Comparison">5</param>
+                    <param id="2" name="Second value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="8" name="Set vector X" sid="265919144695879" type="EnemigoTortuga">
+                    <param id="0" name="Vector X">50000</param>
                 </action>
             </actions>
         </event-block>
