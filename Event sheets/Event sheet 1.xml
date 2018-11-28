@@ -503,7 +503,6 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-9" name="Destroy" sid="307631344842675" type="EnemigoFuego" />
                         <action id="-12" name="Set group active" sid="871217230439434" type="System">
                             <param id="0" name="Group name">&quot;EspadaFuego&quot;</param>
                             <param id="1" name="State">1</param>
@@ -694,23 +693,7 @@
             <conditions>
                 <condition id="-2" name="On start of layout" sid="624434617862720" type="System" />
             </conditions>
-            <actions>
-                <action behavior="Turret" id="1" name="Add object to target" sid="624056805164436" type="EnemigoFuego">
-                    <param id="0" name="Target">Player</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="282410234744907">
-            <conditions>
-                <condition behavior="Turret" id="1" name="On shoot" sid="262132754540842" type="EnemigoFuego" />
-            </conditions>
-            <actions>
-                <action id="0" name="Spawn another object" sid="290448325687275" type="EnemigoFuego">
-                    <param id="0" name="Object">Fuego</param>
-                    <param id="1" name="Layer">0</param>
-                    <param id="2" name="Image point">0</param>
-                </action>
-            </actions>
+            <actions />
         </event-block>
         <event-block sid="509810999929635">
             <conditions>
@@ -736,7 +719,7 @@
         </event-block>
         <event-block sid="465755494651019">
             <conditions>
-                <condition id="0" name="On collision with another object" sid="479512194979038" type="Fuego">
+                <condition id="0" name="On collision with another object" sid="479512194979038" type="VoladorDisparo">
                     <param id="0" name="Object">Player</param>
                 </condition>
             </conditions>
@@ -956,5 +939,218 @@
                 </action>
             </actions>
         </event-block>
+        <event-group description="" sid="591073643139493" title="EnemigoVoladorBasico">
+            <sub-events>
+                <event-block sid="582297663391620">
+                    <conditions>
+                        <condition id="-18" name="On created" sid="840307846801082" type="Mogo" />
+                    </conditions>
+                    <actions>
+                        <action behavior="CustomMovement" id="2" name="Set speed" sid="370047863466996" type="Mogo">
+                            <param id="0" name="Which">1</param>
+                            <param id="1" name="Speed">Self.VelocidadX</param>
+                        </action>
+                        <action behavior="CustomMovement" id="2" name="Set speed" sid="337743063023423" type="Mogo">
+                            <param id="0" name="Which">2</param>
+                            <param id="1" name="Speed">Self.VelocidadY</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block any="1" sid="217673870979146">
+                    <conditions>
+                        <condition id="9" name="Is overlapping at offset" sid="344474656844538" type="Mogo">
+                            <param id="0" name="Object">Solido</param>
+                            <param id="1" name="Offset X">3</param>
+                            <param id="2" name="Offset Y">0</param>
+                        </condition>
+                        <condition id="9" name="Is overlapping at offset" sid="878942277234381" type="Mogo">
+                            <param id="0" name="Object">Solido</param>
+                            <param id="1" name="Offset X">-3</param>
+                            <param id="2" name="Offset Y">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="CustomMovement" id="1" name="Reverse" sid="911680275316636" type="Mogo">
+                            <param id="0" name="Axes">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block any="1" sid="834764232124927">
+                    <conditions>
+                        <condition id="9" name="Is overlapping at offset" sid="165754580012991" type="Mogo">
+                            <param id="0" name="Object">Solido</param>
+                            <param id="1" name="Offset X">0</param>
+                            <param id="2" name="Offset Y">-3</param>
+                        </condition>
+                        <condition id="9" name="Is overlapping at offset" sid="606212450800098" type="Mogo">
+                            <param id="0" name="Object">Solido</param>
+                            <param id="1" name="Offset X">0</param>
+                            <param id="2" name="Offset Y">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="CustomMovement" id="1" name="Reverse" sid="910781248642583" type="Mogo">
+                            <param id="0" name="Axes">2</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="745159875500248" title="Volador">
+            <sub-events>
+                <event-block sid="155890409641086">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="282006153596055" type="System" />
+                    </conditions>
+                    <actions>
+                        <action behavior="Turret" id="1" name="Add object to target" sid="411008496613475" type="Volador">
+                            <param id="0" name="Target">Player</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="924756830434824">
+                    <conditions>
+                        <condition behavior="Turret" id="1" name="On shoot" sid="284139477102606" type="Volador" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Spawn another object" sid="831955761753335" type="Volador">
+                            <param id="0" name="Object">VoladorDisparo</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="374998966621780">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="251871198632599" type="VoladorDisparo">
+                            <param id="0" name="Object">Player</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-12" name="Subtract from" sid="366405029540302" type="Player">
+                            <param id="0" name="Instance variable">Vida</param>
+                            <param id="1" name="Value">5</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="918629920369303">
+                    <conditions>
+                        <condition id="-18" name="On created" sid="832678816716791" type="VoladorDisparo" />
+                    </conditions>
+                    <actions>
+                        <action behavior="Bullet" id="3" name="Set angle of motion" sid="921307606123509" type="VoladorDisparo">
+                            <param id="0" name="Angle">angle(Self.x,Self.Y,Player.X,Player.Y-(Player.Height/2))</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="519241400663701">
+                    <conditions>
+                        <condition behavior="Pathfinding" id="0" name="On path found" sid="857718392917134" type="Volador" />
+                        <condition id="-8" name="Compare two values" sid="970941977172549" type="System">
+                            <param id="0" name="First value">distance(Volador.X,Volador.Y,Player.X,Player.Y)</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Second value">Volador.Rango</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Pathfinding" id="1" name="Move along path" sid="425565044695784" type="Volador" />
+                    </actions>
+                </event-block>
+                <event-block sid="216560941465198">
+                    <conditions>
+                        <condition id="-11" name="For Each" sid="978987661659120" type="System">
+                            <param id="0" name="Object">Volador</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="174594271828042">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="390318355962163" type="Volador">
+                                    <param id="0" name="Instance variable">Absorbible</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="883086440456788">
+                                    <conditions>
+                                        <condition id="-3" name="Is on-screen" sid="401849151262898" type="Volador" />
+                                    </conditions>
+                                    <actions />
+                                    <sub-events>
+                                        <event-block sid="888246730481738">
+                                            <conditions>
+                                                <condition id="-6" name="Every X seconds" sid="963665916958385" type="System">
+                                                    <param id="0" name="Interval (seconds)">3</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action behavior="Pathfinding" id="0" name="Find path" sid="749760707782204" type="Volador">
+                                                    <param id="0" name="X">Player.X </param>
+                                                    <param id="1" name="Y">Player.Y - (Player.Height/2)</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="847882189254725">
+                                            <conditions>
+                                                <condition id="-8" name="Compare two values" sid="519553592061386" type="System">
+                                                    <param id="0" name="First value">distance(Volador.X,Volador.Y,Player.X,Player.Y)</param>
+                                                    <param id="1" name="Comparison">2</param>
+                                                    <param id="2" name="Second value">Volador.Rango</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action behavior="Pathfinding" id="2" name="Stop" sid="753302853109754" type="Volador" />
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                                <event-block sid="552771649006172">
+                                    <conditions>
+                                        <condition id="-3" inverted="1" name="Is on-screen" sid="179475635587396" type="Volador" />
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Pathfinding" id="2" name="Stop" sid="996182781844239" type="Volador" />
+                                    </actions>
+                                </event-block>
+                                <event-block sid="132741724998809">
+                                    <conditions>
+                                        <condition behavior="Pathfinding" id="4" name="Is moving along path" sid="958010220590413" type="Volador" />
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Sine" id="0" name="Set active" sid="514922351980189" type="Volador">
+                                            <param id="0" name="State">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="264750488430030">
+                                    <conditions>
+                                        <condition id="-22" name="Else" sid="487794765830299" type="System" />
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Sine" id="0" name="Set active" sid="239992653543569" type="Volador">
+                                            <param id="0" name="State">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="813545589175332">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="902527385719471" type="System" />
+                            </conditions>
+                            <actions>
+                                <action behavior="Sine" id="0" name="Set active" sid="723767341568483" type="Volador">
+                                    <param id="0" name="State">0</param>
+                                </action>
+                                <action behavior="Pathfinding" id="2" name="Stop" sid="964805199441854" type="Volador" />
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
     </events>
 </c2eventsheet>

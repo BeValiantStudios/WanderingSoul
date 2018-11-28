@@ -18,6 +18,7 @@
     <used-behaviors>
         <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
         <behavior author="Scirra" id="Fade" version="1">Fade</behavior>
+        <behavior author="Scirra" id="Pathfinding" version="1">Pathfinding</behavior>
         <behavior author="Scirra" id="Pin" version="1">Pin</behavior>
         <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
         <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
@@ -132,19 +133,6 @@
                 </behaviors>
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="267221004695488" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                    </animation>
-                </animation-folder>
-            </object-type>
-            <object-type name="Fuego" sid="307780865831906">
-                <plugin id="Sprite" />
-                <behaviors>
-                    <behavior-type name="Bullet" sid="537945933903312">
-                        <behavior id="Bullet" />
-                    </behavior-type>
-                </behaviors>
-                <animation-folder>
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="163335149397660" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                     </animation>
                 </animation-folder>
@@ -355,21 +343,6 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="EnemigoFuego" sid="672828309138772">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="Turret" sid="473973871748334">
-                    <behavior id="Turret" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="705899258878841" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
-                        <image-point name="Imagepoint 1" x="0.5" y="-0.156" />
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
         <object-type name="IndicadorAbsorber" sid="160743781436488">
             <plugin id="Sprite" />
             <behaviors>
@@ -461,6 +434,75 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Mogo" sid="199845752191638">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="VelocidadX" sid="565197469242461" type="number" />
+                <instance-variable name="VelocidadY" sid="603093555521558" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="CustomMovement" sid="816894493196710">
+                    <behavior id="custom" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="194898271660350" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.2" y="0.244" />
+                            <point x="0.436" y="0.172" />
+                            <point x="0.684" y="0.304" />
+                            <point x="0.684" y="0.5" />
+                            <point x="0.652" y="0.656" />
+                            <point x="0.464" y="0.704" />
+                            <point x="0.272" y="0.684" />
+                            <point x="0.14" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Volador" sid="170245160185212">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="Rango" sid="535038303806836" type="number" />
+                <instance-variable name="Absorbible" sid="232810922557338" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Turret" sid="408180169127898">
+                    <behavior id="Turret" />
+                </behavior-type>
+                <behavior-type name="Pathfinding" sid="681902022948179">
+                    <behavior id="Pathfinding" />
+                </behavior-type>
+                <behavior-type name="Timer" sid="668139921468777">
+                    <behavior id="Timer" />
+                </behavior-type>
+                <behavior-type name="Sine" sid="365193274719741">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="220797679038850" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <image-point name="Imagepoint 1" x="0.5" y="-0.156" />
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="VoladorDisparo" sid="307780865831906">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="537945933903312">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="163335149397660" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families>
         <family name="BasicAttacks" plugin-id="Sprite" sid="309691732548466">
@@ -475,7 +517,6 @@
         <family name="Enemigos" plugin-id="Sprite" sid="699454666691986">
             <members>
                 <member>EnemigoBasico</member>
-                <member>EnemigoFuego</member>
                 <member>EnemigoTortuga</member>
             </members>
             <instance-variables>
