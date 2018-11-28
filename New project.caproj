@@ -10,6 +10,7 @@
     <unique-id>1gvrknnevqeeg</unique-id>
     <saved-with-version>26500</saved-with-version>
     <used-plugins>
+        <plugin author="Scirra" id="Function" version="1">Function</plugin>
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
@@ -504,6 +505,17 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Respawn" sid="955037737623557">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="761162712882644" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Function" sid="884856891626828">
+            <plugin id="Function" />
+        </object-type>
     </object-folder>
     <families>
         <family name="BasicAttacks" plugin-id="Sprite" sid="309691732548466">
@@ -542,6 +554,7 @@
                 <analog-deadzone>25</analog-deadzone>
             </properties>
         </global-instance>
+        <global-instance type="Function" uid="28" />
     </global-instances>
     <sounds-folder />
     <music-folder />
