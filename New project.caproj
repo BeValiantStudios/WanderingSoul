@@ -427,8 +427,503 @@
                 </behavior-type>
             </behaviors>
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="495516954352720" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                <animation framecount="62" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="495516954352720" speed="140">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Jhü\Desktop\Spriter\Nueva carpeta\caminar_000.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.865079" />
+                            <point x="0" y="0.865079" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Jhü\Desktop\Spriter\Nueva carpeta\caminar_001.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.865079" />
+                            <point x="0" y="0.865079" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Jhü\Desktop\Spriter\Nueva carpeta\caminar_002.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.865079" />
+                            <point x="0" y="0.865079" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Jhü\Desktop\Spriter\Nueva carpeta\caminar_003.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.865079" />
+                            <point x="0" y="0.865079" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Jhü\Desktop\Spriter\Nueva carpeta\caminar_004.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.865079" />
+                            <point x="0" y="0.865079" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Jhü\Desktop\Spriter\Nueva carpeta\caminar_005.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.865079" />
+                            <point x="0" y="0.865079" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Jhü\Desktop\Spriter\Nueva carpeta\caminar_006.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.865079" />
+                            <point x="0" y="0.865079" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Jhü\Desktop\Spriter\Nueva carpeta\caminar_007.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.865079" />
+                            <point x="0" y="0.865079" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Jhü\Desktop\Spriter\Nueva carpeta\caminar_008.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.865079" />
+                            <point x="0" y="0.865079" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Jhü\Desktop\Spriter\Nueva carpeta\caminar_009.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.865079" />
+                            <point x="0" y="0.865079" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Jhü\Desktop\Spriter\Nueva carpeta\caminar_010.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.865079" />
+                            <point x="0" y="0.865079" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Jhü\Desktop\Spriter\Nueva carpeta\caminar_011.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.865079" />
+                            <point x="0" y="0.865079" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Jhü\Desktop\Spriter\Nueva carpeta\caminar_012.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.865079" />
+                            <point x="0" y="0.865079" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Jhü\Desktop\Spriter\Nueva carpeta\caminar_013.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.865079" />
+                            <point x="0" y="0.865079" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Jhü\Desktop\Spriter\Nueva carpeta\caminar_014.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.865079" />
+                            <point x="0" y="0.865079" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Jhü\Desktop\Spriter\Nueva carpeta\caminar_015.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.865079" />
+                            <point x="0" y="0.865079" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Jhü\Desktop\Spriter\Nueva carpeta\caminar_016.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.865079" />
+                            <point x="0" y="0.865079" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Jhü\Desktop\Spriter\Nueva carpeta\caminar_017.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.865079" />
+                            <point x="0" y="0.865079" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Jhü\Desktop\Spriter\Nueva carpeta\caminar_018.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.865079" />
+                            <point x="0" y="0.865079" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Jhü\Desktop\Spriter\Nueva carpeta\caminar_019.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.865079" />
+                            <point x="0" y="0.865079" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Jhü\Desktop\Spriter\Nueva carpeta\caminar_020.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.865079" />
+                            <point x="0" y="0.865079" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Jhü\Desktop\Spriter\Nueva carpeta\caminar_021.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.865079" />
+                            <point x="0" y="0.865079" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Jhü\Desktop\Spriter\Nueva carpeta\caminar_022.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.865079" />
+                            <point x="0" y="0.865079" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Jhü\Desktop\Spriter\Nueva carpeta\caminar_023.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.865079" />
+                            <point x="0" y="0.865079" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Jhü\Desktop\Spriter\Nueva carpeta\caminar_024.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.865079" />
+                            <point x="0" y="0.865079" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Jhü\Desktop\Spriter\Nueva carpeta\caminar_025.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.865079" />
+                            <point x="0" y="0.865079" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Jhü\Desktop\Spriter\Nueva carpeta\caminar_026.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.865079" />
+                            <point x="0" y="0.865079" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Jhü\Desktop\Spriter\Nueva carpeta\caminar_027.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.865079" />
+                            <point x="0" y="0.865079" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Jhü\Desktop\Spriter\Nueva carpeta\caminar_028.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.865079" />
+                            <point x="0" y="0.865079" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Jhü\Desktop\Spriter\Nueva carpeta\caminar_029.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.865079" />
+                            <point x="0" y="0.865079" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Jhü\Desktop\Spriter\Nueva carpeta\caminar_030.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.865079" />
+                            <point x="0" y="0.865079" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Jhü\Desktop\Spriter\Nueva carpeta\caminar_031.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.865079" />
+                            <point x="0" y="0.865079" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Jhü\Desktop\Spriter\Nueva carpeta\caminar_032.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.865079" />
+                            <point x="0" y="0.865079" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Jhü\Desktop\Spriter\Nueva carpeta\caminar_033.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.865079" />
+                            <point x="0" y="0.865079" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Jhü\Desktop\Spriter\Nueva carpeta\caminar_034.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.865079" />
+                            <point x="0" y="0.865079" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Jhü\Desktop\Spriter\Nueva carpeta\caminar_035.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.865079" />
+                            <point x="0" y="0.865079" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Jhü\Desktop\Spriter\Nueva carpeta\caminar_036.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.865079" />
+                            <point x="0" y="0.865079" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Jhü\Desktop\Spriter\Nueva carpeta\caminar_037.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.865079" />
+                            <point x="0" y="0.865079" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Jhü\Desktop\Spriter\Nueva carpeta\caminar_038.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.865079" />
+                            <point x="0" y="0.865079" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Jhü\Desktop\Spriter\Nueva carpeta\caminar_039.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.865079" />
+                            <point x="0" y="0.865079" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Jhü\Desktop\Spriter\Nueva carpeta\caminar_040.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.865079" />
+                            <point x="0" y="0.865079" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Jhü\Desktop\Spriter\Nueva carpeta\caminar_041.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.865079" />
+                            <point x="0" y="0.865079" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Jhü\Desktop\Spriter\Nueva carpeta\caminar_042.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.865079" />
+                            <point x="0" y="0.865079" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Jhü\Desktop\Spriter\Nueva carpeta\caminar_043.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.865079" />
+                            <point x="0" y="0.865079" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Jhü\Desktop\Spriter\Nueva carpeta\caminar_044.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.865079" />
+                            <point x="0" y="0.865079" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Jhü\Desktop\Spriter\Nueva carpeta\caminar_045.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.865079" />
+                            <point x="0" y="0.865079" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Jhü\Desktop\Spriter\Nueva carpeta\caminar_046.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.865079" />
+                            <point x="0" y="0.865079" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Jhü\Desktop\Spriter\Nueva carpeta\caminar_047.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.865079" />
+                            <point x="0" y="0.865079" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Jhü\Desktop\Spriter\Nueva carpeta\caminar_048.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.865079" />
+                            <point x="0" y="0.865079" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Jhü\Desktop\Spriter\Nueva carpeta\caminar_049.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.865079" />
+                            <point x="0" y="0.865079" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Jhü\Desktop\Spriter\Nueva carpeta\caminar_050.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.865079" />
+                            <point x="0" y="0.865079" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Jhü\Desktop\Spriter\Nueva carpeta\caminar_051.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.865079" />
+                            <point x="0" y="0.865079" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Jhü\Desktop\Spriter\Nueva carpeta\caminar_052.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.865079" />
+                            <point x="0" y="0.865079" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Jhü\Desktop\Spriter\Nueva carpeta\caminar_053.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.865079" />
+                            <point x="0" y="0.865079" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Jhü\Desktop\Spriter\Nueva carpeta\caminar_054.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.865079" />
+                            <point x="0" y="0.865079" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Jhü\Desktop\Spriter\Nueva carpeta\caminar_055.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.865079" />
+                            <point x="0" y="0.865079" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Jhü\Desktop\Spriter\Nueva carpeta\caminar_056.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.865079" />
+                            <point x="0" y="0.865079" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Jhü\Desktop\Spriter\Nueva carpeta\caminar_057.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.865079" />
+                            <point x="0" y="0.865079" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Jhü\Desktop\Spriter\Nueva carpeta\caminar_058.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.865079" />
+                            <point x="0" y="0.865079" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Jhü\Desktop\Spriter\Nueva carpeta\caminar_059.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.865079" />
+                            <point x="0" y="0.865079" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Jhü\Desktop\Spriter\Nueva carpeta\caminar_060.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.865079" />
+                            <point x="0" y="0.865079" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Jhü\Desktop\Spriter\Nueva carpeta\caminar_061.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.865079" />
+                            <point x="0" y="0.865079" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
