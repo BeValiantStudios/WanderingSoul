@@ -1627,7 +1627,7 @@
                     <actions>
                         <action id="0" name="Spawn another object" sid="716275794251098" type="Player">
                             <param id="0" name="Object">particle</param>
-                            <param id="1" name="Layer">0</param>
+                            <param id="1" name="Layer">&quot;Layer 0&quot;</param>
                             <param id="2" name="Image point">random(4,11)</param>
                         </action>
                     </actions>
