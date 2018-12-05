@@ -1205,6 +1205,32 @@
                                 </event-block>
                             </sub-events>
                         </event-block>
+                        <event-block sid="922091085799609">
+                            <conditions>
+                                <condition id="0" name="On key pressed" sid="186105293587162" type="Keyboard">
+                                    <param id="0" name="Key">39</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Set value" sid="593497859562341" type="Player">
+                                    <param id="0" name="Instance variable">Direccion</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="572227090601595">
+                            <conditions>
+                                <condition id="0" name="On key pressed" sid="319761328834258" type="Keyboard">
+                                    <param id="0" name="Key">37</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Set value" sid="426935436274897" type="Player">
+                                    <param id="0" name="Instance variable">Direccion</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
                     </sub-events>
                 </event-group>
             </sub-events>
@@ -1709,6 +1735,91 @@
                     <actions>
                         <action id="0" name="Set text" sid="329391361758757" type="Estado">
                             <param id="0" name="Text">Player.estado</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="810386929019324" title="Particles">
+            <sub-events>
+                <event-block sid="654528416899038">
+                    <conditions>
+                        <condition id="-18" name="On created" sid="113855723269047" type="ParticulaHorizontal" />
+                    </conditions>
+                    <actions>
+                        <action behavior="CustomMovement" id="2" name="Set speed" sid="698290831322002" type="ParticulaHorizontal">
+                            <param id="0" name="Which">1</param>
+                            <param id="1" name="Speed">(choose(-1,1)) * 80</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="207115344583290">
+                    <conditions>
+                        <condition id="-18" name="On created" sid="138430515351028" type="ParticulaVertical" />
+                    </conditions>
+                    <actions>
+                        <action behavior="CustomMovement" id="2" name="Set speed" sid="729123545244678" type="ParticulaVertical">
+                            <param id="0" name="Which">2</param>
+                            <param id="1" name="Speed">-80</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="766070016675877">
+                    <conditions>
+                        <condition id="-6" name="Every X seconds" sid="989647615909796" type="System">
+                            <param id="0" name="Interval (seconds)">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Create object" sid="903886847960539" type="System">
+                            <param id="0" name="Object to create">ParticulaHorizontal</param>
+                            <param id="1" name="Layer">&quot;Particles&quot;</param>
+                            <param id="2" name="X">round(random(0,LayoutWidth))</param>
+                            <param id="3" name="Y">round(random(0,LayoutHeight))</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="722849888465468">
+                    <conditions>
+                        <condition id="-6" name="Every X seconds" sid="798106301314058" type="System">
+                            <param id="0" name="Interval (seconds)">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Create object" sid="414060138528482" type="System">
+                            <param id="0" name="Object to create">ParticulaVertical</param>
+                            <param id="1" name="Layer">&quot;Particles&quot;</param>
+                            <param id="2" name="X">round(random(0,LayoutWidth))</param>
+                            <param id="3" name="Y">round(random(0,LayoutHeight))</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="149178416980518">
+                    <conditions>
+                        <condition id="-6" name="Every X seconds" sid="468634629233962" type="System">
+                            <param id="0" name="Interval (seconds)">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Create object" sid="613492277428320" type="System">
+                            <param id="0" name="Object to create">Leave</param>
+                            <param id="1" name="Layer">&quot;Particles&quot;</param>
+                            <param id="2" name="X">round(random(0,LayoutWidth))</param>
+                            <param id="3" name="Y">round(random(0,LayoutHeight))</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="835969958078006">
+                    <conditions>
+                        <condition id="-18" name="On created" sid="739726514828033" type="Leave" />
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="313058183432801" type="Leave">
+                            <param id="0" name="Frame number">round(random(0,1))</param>
+                        </action>
+                        <action behavior="CustomMovement" id="2" name="Set speed" sid="863085687139716" type="Leave">
+                            <param id="0" name="Which">1</param>
+                            <param id="1" name="Speed">-80</param>
                         </action>
                     </actions>
                 </event-block>

@@ -24,6 +24,7 @@
         <behavior author="Scirra" id="Pathfinding" version="1">Pathfinding</behavior>
         <behavior author="Scirra" id="Pin" version="1">Pin</behavior>
         <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
+        <behavior author="Scirra" id="Rotate" version="1">Rotate</behavior>
         <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
         <behavior author="Scirra" id="Timer" version="1">Timer</behavior>
         <behavior author="Scirra" id="Turret" version="1">Turret</behavior>
@@ -32,6 +33,9 @@
         <behavior author="Scirra" id="solid" version="1">Solid</behavior>
     </used-behaviors>
     <used-effects>
+        <effect author="Scirra" id="blurhorizontal">Blur Horizontal</effect>
+        <effect author="Scirra" id="blurvertical">Blur Vertical</effect>
+        <effect author="Scirra" id="multiply">Multiply</effect>
         <effect author="Scirra" id="setcolor">Set color</effect>
         <effect author="Scirra" id="tint">Tint</effect>
     </used-effects>
@@ -39,8 +43,8 @@
         <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
     </configurations>
     <window-size>
-        <width>1708</width>
-        <height>960</height>
+        <width>2560</width>
+        <height>1440</height>
     </window-size>
     <pixel-rounding>0</pixel-rounding>
     <preview-effects>1</preview-effects>
@@ -1002,14 +1006,6 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Background" sid="868642976277219">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="104332119820583" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
         <object-type name="EnemigoTortuga" sid="994152477350272">
             <plugin id="Sprite" />
             <instance-variables>
@@ -1663,6 +1659,186 @@
                     <behavior id="Pin" />
                 </behavior-type>
             </behaviors>
+        </object-type>
+        <object-type name="Leave" sid="790288581891733">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="CustomMovement" sid="542812497703587">
+                    <behavior id="custom" />
+                </behavior-type>
+                <behavior-type name="Sine" sid="209431131054607">
+                    <behavior id="Sin" />
+                </behavior-type>
+                <behavior-type name="Fade" sid="298743077506744">
+                    <behavior id="Fade" />
+                </behavior-type>
+                <behavior-type name="Rotate" sid="802874548689796">
+                    <behavior id="Rotate" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="263959020305007" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.509804" original-source="C:\Users\Jhü\Documents\GitHub\Tarea2-Physics\Assets\Nivel\hoja_particle_1.png">
+                        <collision-poly>
+                            <point x="0.37069" y="0.373913" />
+                            <point x="0.5" y="0.321739" />
+                            <point x="0.62069" y="0.382609" />
+                            <point x="0.672414" y="0.495652" />
+                            <point x="0.62069" y="0.617391" />
+                            <point x="0.5" y="0.669565" />
+                            <point x="0.37931" y="0.617391" />
+                            <point x="0.327586" y="0.495652" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.512195" hotspotY="0.518519" original-source="C:\Users\Jhü\Documents\GitHub\Tarea2-Physics\Assets\Nivel\hoja_particle_2.png">
+                        <collision-poly>
+                            <point x="0.121951" y="0.185185" />
+                            <point x="0.487805" y="0.037037" />
+                            <point x="0.853659" y="0.222222" />
+                            <point x="0.926829" y="0.481481" />
+                            <point x="0.804878" y="0.703704" />
+                            <point x="0.487805" y="0.962963" />
+                            <point x="0.121951" y="0.814815" />
+                            <point x="0.0487805" y="0.481481" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ParticulaHorizontal" sid="340674477385930">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="CustomMovement" sid="278748268360937">
+                    <behavior id="custom" />
+                </behavior-type>
+                <behavior-type name="Sine" sid="893189536505549">
+                    <behavior id="Sin" />
+                </behavior-type>
+                <behavior-type name="Fade" sid="493934729726630">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <effects>
+                <effect-type name="BlurHorizontal">
+                    <effect id="blurhorizontal" />
+                </effect-type>
+                <effect-type name="BlurVertical">
+                    <effect id="blurvertical" />
+                </effect-type>
+            </effects>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="542472620696008" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.504348" original-source="C:\Users\Jhü\Documents\GitHub\Tarea2-Physics\Assets\Nivel\hoja_particle_1.png">
+                        <collision-poly>
+                            <point x="0.37069" y="0.373913" />
+                            <point x="0.5" y="0.321739" />
+                            <point x="0.62069" y="0.382609" />
+                            <point x="0.672414" y="0.495652" />
+                            <point x="0.62069" y="0.617391" />
+                            <point x="0.5" y="0.669565" />
+                            <point x="0.37931" y="0.617391" />
+                            <point x="0.327586" y="0.495652" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ParticulaVertical" sid="531818038641325">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="CustomMovement" sid="192254790209201">
+                    <behavior id="custom" />
+                </behavior-type>
+                <behavior-type name="Sine" sid="323577685365078">
+                    <behavior id="Sin" />
+                </behavior-type>
+                <behavior-type name="Fade" sid="579415510542482">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <effects>
+                <effect-type name="BlurHorizontal">
+                    <effect id="blurhorizontal" />
+                </effect-type>
+                <effect-type name="BlurVertical">
+                    <effect id="blurvertical" />
+                </effect-type>
+            </effects>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="725655620761241" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.504348" original-source="D:\EdgardDeveloper\Construct\Tarea2-Physics\Assets\Nivel\particle_2.png">
+                        <collision-poly>
+                            <point x="0.37069" y="0.373913" />
+                            <point x="0.5" y="0.321739" />
+                            <point x="0.62069" y="0.382609" />
+                            <point x="0.672414" y="0.495652" />
+                            <point x="0.62069" y="0.617391" />
+                            <point x="0.5" y="0.669565" />
+                            <point x="0.37931" y="0.617391" />
+                            <point x="0.327586" y="0.495652" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="zarza_2" sid="752092368041571">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="424001213107005" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="1" original-source="D:\EdgardDeveloper\Construct\Tarea2-Physics\Assets\Nivel\Zarza_2.png">
+                        <collision-poly>
+                            <point x="0.162338" y="0.243697" />
+                            <point x="0.443724" y="0.0336134" />
+                            <point x="0.724026" y="0.0588235" />
+                            <point x="0.935066" y="0.268908" />
+                            <point x="0.948052" y="0.784314" />
+                            <point x="0.798701" y="0.812325" />
+                            <point x="0.722944" y="0.383754" />
+                            <point x="0.5" y="0.285714" />
+                            <point x="0.25974" y="0.456583" />
+                            <point x="0.209957" y="0.773109" />
+                            <point x="0.0324675" y="0.857143" />
+                            <point x="0.0108225" y="0.543417" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="zarza_1" sid="293994108639525">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="252739936935994" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="1" original-source="D:\EdgardDeveloper\Construct\Tarea2-Physics\Assets\Nivel\Zarza_1.png">
+                        <collision-poly>
+                            <point x="0.491803" y="0.164706" />
+                            <point x="0.713115" y="0.0282353" />
+                            <point x="0.97541" y="0.00705882" />
+                            <point x="0.827869" y="0.498824" />
+                            <point x="0.540984" y="0.788235" />
+                            <point x="0.401639" y="0.969412" />
+                            <point x="0.262295" y="1" />
+                            <point x="0.0573772" y="0.797647" />
+                            <point x="0.463115" y="0.436471" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="LuzCielo" sid="236279964723023">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="172269602671768" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\ImLian\Desktop\estawia.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.5" />
+                            <point x="0.5" y="0.613" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
         </object-type>
     </object-folder>
     <families>
