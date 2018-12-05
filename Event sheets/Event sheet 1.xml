@@ -1825,5 +1825,47 @@
                 </event-block>
             </sub-events>
         </event-group>
+        <event-block sid="729829554875241">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="489989623316670" type="System">
+                    <param id="0" name="Interval (seconds)">0.01</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-12" name="Subtract from" sid="237915976776814" type="PantallaNegra">
+                    <param id="0" name="Instance variable">Opacidad</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="122632576487733" type="PantallaNegra">
+                    <param id="0" name="Opacity">PantallaNegra.Opacidad</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="694001844040959">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="157584322978002" type="Player">
+                    <param id="0" name="Object">zarza_1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Call function" sid="713038594909990" type="Function">
+                    <param id="0" name="Name">&quot;Muerte&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="994569378752095">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="710246720029214" type="Player">
+                    <param id="0" name="Object">zarza_2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Call function" sid="417300133128451" type="Function">
+                    <param id="0" name="Name">&quot;Muerte&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

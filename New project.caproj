@@ -43,8 +43,8 @@
         <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
     </configurations>
     <window-size>
-        <width>2560</width>
-        <height>1440</height>
+        <width>2166</width>
+        <height>1080</height>
     </window-size>
     <pixel-rounding>0</pixel-rounding>
     <preview-effects>1</preview-effects>
@@ -174,6 +174,11 @@
         <object-folder name="Piso">
             <object-type name="Piso" sid="131119542943326">
                 <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="748123131807702">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="502492800900272" speed="5">
                         <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\EdgardDeveloper\shotopof\exportados\Wandering\piso.png">
@@ -1861,6 +1866,67 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Petalo" sid="689443786692021">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="CustomMovement" sid="551342144760039">
+                    <behavior id="custom" />
+                </behavior-type>
+                <behavior-type name="Fade" sid="692405361315455">
+                    <behavior id="Fade" />
+                </behavior-type>
+                <behavior-type name="Sine" sid="289937959407098">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="5" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="625131170206696" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Vermillion\Desktop\Trabajos\Construct\WanderingSoul\Petalo1.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Vermillion\Desktop\Trabajos\Construct\WanderingSoul\Petalo2.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.502488" original-source="C:\Users\Vermillion\Desktop\Trabajos\Construct\WanderingSoul\Petalo3.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.502762" original-source="C:\Users\Vermillion\Desktop\Trabajos\Construct\WanderingSoul\Petalo4.png" />
+                    <frame duration="1" hotspotX="0.501901" hotspotY="0.5" original-source="C:\Users\Vermillion\Desktop\Trabajos\Construct\WanderingSoul\Petalo5.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="wandering_escene_concepts" sid="333361246054870">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="275666928384310" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Vermillion\Desktop\wandering_escene_concepts.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="PantallaNegra" sid="353337135437405">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="Opacidad" sid="690833417225035" type="number" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="844305221963447" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="PantallaNegra2" sid="826293594762134">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="Opacidad" sid="461344160668869" type="number" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="950125771872705" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text5" sid="226836133292424">
+            <plugin id="Text" />
+            <behaviors>
+                <behavior-type name="Sine" sid="290160984551636">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+        </object-type>
     </object-folder>
     <families>
         <family name="BasicAttacks" plugin-id="Sprite" sid="309691732548466">
@@ -1889,9 +1955,11 @@
     <layout-folder>
         <layout>Layout 1.xml</layout>
         <layout>Assets.xml</layout>
+        <layout>Menu.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Event sheet 1.xml</event-sheet>
+        <event-sheet>Event sheet 2.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="4" />
