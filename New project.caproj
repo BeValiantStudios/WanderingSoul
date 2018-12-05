@@ -1840,6 +1840,27 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Platform" sid="638378382597435">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="988120147834721">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="213705447102008" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Jhü\Desktop\a.png">
+                        <collision-poly>
+                            <point x="0.128" y="0.424" />
+                            <point x="0.933999" y="0.428" />
+                            <point x="0.822" y="0.822" />
+                            <point x="0.51" y="0.826" />
+                            <point x="0.202" y="0.798" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families>
         <family name="BasicAttacks" plugin-id="Sprite" sid="309691732548466">
