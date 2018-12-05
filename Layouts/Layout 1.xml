@@ -2183,7 +2183,7 @@
                         </behavior-instance>
                         <behavior-instance type="ScrollTo">
                             <properties>
-                                <initial-state>Enabled</initial-state>
+                                <initial-state>Disabled</initial-state>
                             </properties>
                         </behavior-instance>
                         <behavior-instance type="Timer" />
@@ -2658,7 +2658,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="PantallaNegra" uid="90">
+                <instance type="PantallaNegra" uid="3">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2683,7 +2683,7 @@
                         <opacity>0</opacity>
                     </world>
                 </instance>
-                <instance type="Piso" uid="91">
+                <instance type="Piso" uid="4">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2712,7 +2712,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Piso" uid="92">
+                <instance type="Piso" uid="5">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2741,7 +2741,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Piso" uid="93">
+                <instance type="Piso" uid="6">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2770,7 +2770,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Piso" uid="94">
+                <instance type="Piso" uid="7">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2799,7 +2799,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Piso" uid="95">
+                <instance type="Piso" uid="8">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2828,7 +2828,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Piso" uid="96">
+                <instance type="Piso" uid="12">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2857,7 +2857,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Piso" uid="97">
+                <instance type="Piso" uid="18">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2882,6 +2882,38 @@
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="focus" uid="133">
+                    <properties>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <estado>0</estado>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="ScrollTo">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>784</x>
+                        <y>1545</y>
+                        <z>0</z>
+                        <width>116.567573547</width>
+                        <height>116.567573547</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -2998,7 +3030,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>-136</x>
-                        <y>2205</y>
+                        <y>1967</y>
                         <z>0</z>
                         <width>13992</width>
                         <height>742</height>

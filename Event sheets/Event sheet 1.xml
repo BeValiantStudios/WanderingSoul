@@ -3,6 +3,40 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Event sheet 1</name>
     <events>
+        <event-group description="" sid="994192987320909" title="Camara">
+            <sub-events>
+                <event-block sid="996600150749079">
+                    <conditions>
+                        <condition id="-1" name="Every tick" sid="662499210115901" type="System" />
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="257493033295987">
+                            <conditions>
+                                <condition id="7" inverted="1" name="Is mirrored" sid="946446796188873" type="Player" />
+                            </conditions>
+                            <actions>
+                                <action id="-3" name="Set position" sid="987582236755957" type="focus">
+                                    <param id="0" name="X">lerp(Self.X, Player.X+250, 0.06)</param>
+                                    <param id="1" name="Y">lerp(Self.Y, Player.Y-100, 0.08)</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="480514508753665">
+                            <conditions>
+                                <condition id="7" name="Is mirrored" sid="659294780549032" type="Player" />
+                            </conditions>
+                            <actions>
+                                <action id="-3" name="Set position" sid="347914871910665" type="focus">
+                                    <param id="0" name="X">lerp(Self.X, Player.X-250, 0.06)</param>
+                                    <param id="1" name="Y">lerp(Self.Y, Player.Y-100, 0.08)</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
         <event-group description="" inactive="1" sid="690642287624200" title="Alas">
             <sub-events>
                 <event-block sid="555571208044136">

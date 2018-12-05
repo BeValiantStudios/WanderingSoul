@@ -29,7 +29,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="wandering_escene_concepts" uid="86">
+                <instance type="wandering_escene_concepts" uid="124">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -70,7 +70,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="Petalo" uid="85">
+                <instance type="Petalo" uid="125">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -142,7 +142,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="PantallaNegra" uid="87">
+                <instance type="PantallaNegra" uid="126">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -167,7 +167,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="PantallaNegra2" uid="88">
+                <instance type="PantallaNegra2" uid="127">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -192,7 +192,7 @@
                         <opacity>0</opacity>
                     </world>
                 </instance>
-                <instance type="Text5" uid="89">
+                <instance type="Text5" uid="128">
                     <properties>
                         <text>press Start</text>
                         <initial-visibility>Visible</initial-visibility>
